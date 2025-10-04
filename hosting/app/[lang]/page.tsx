@@ -4,6 +4,7 @@ import glossaryData from '../../data/glossary.json';
 
 const languageConfig: Record<string, { title: string; visitText: string }> = {
   fr: { title: 'Glossaire', visitText: 'Visiter' },
+  zh: { title: '词汇表', visitText: '访问' },
 };
 
 export async function generateStaticParams() {
@@ -38,7 +39,7 @@ export default function TranslatedHomePage({ params }: { params: { lang: string 
                 href={`/${lang}`}
                 className="text-orange-500 hover:text-orange-400 transition-colors"
               >
-                {lang === 'fr' ? 'Français' : lang.toUpperCase()}
+                {lang === 'fr' ? 'Français' : lang === 'zh' ? '中文' : lang.toUpperCase()}
               </Link>
             ))}
         </div>

@@ -28,7 +28,7 @@ export default function EnglishGlossaryTermPage({ params }: { params: { slug: st
               href={`/${lang}/${translation.slug}`}
               className="text-orange-500 hover:text-orange-400 transition-colors"
             >
-              {lang === 'fr' ? 'Français' : lang.toUpperCase()}
+              {lang === 'fr' ? 'Français' : lang === 'zh' ? '中文' : lang.toUpperCase()}
             </Link>
           ))}
         </div>

@@ -4,6 +4,7 @@ import glossaryData from '../../../data/glossary.json';
 
 const languageConfig: Record<string, { backText: string; nextText: string; visitText: string }> = {
   fr: { backText: '← Retour au Glossaire', nextText: 'Suivant', visitText: 'Visiter' },
+  zh: { backText: '← 返回词汇表', nextText: '下一个', visitText: '访问' },
 };
 
 const defaultLangConfig = { backText: '← Back to Glossary', nextText: 'Next', visitText: 'Visit' };
@@ -56,7 +57,7 @@ export default function TranslatedGlossaryTermPage({
                 href={`/${lang}/${translation.slug}`}
                 className="text-orange-500 hover:text-orange-400 transition-colors"
               >
-                {lang === 'fr' ? 'Français' : lang.toUpperCase()}
+                {lang === 'fr' ? 'Français' : lang === 'zh' ? '中文' : lang.toUpperCase()}
               </Link>
             ))}
         </div>

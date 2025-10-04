@@ -6,6 +6,9 @@
     "translations": {
       "fr": {
         "description": "Solutions de concession automobile alimentées par l'IA qui optimisent la gestion des prospects, automatisent les flux de travail et favorisent la récupération des revenus grâce à l'intégration CRM intelligente et à l'analyse des performances."
+      },
+      "zh": {
+        "description": "基于人工智能的汽车经销商解决方案，通过智能CRM集成和性能分析优化潜在客户管理、自动化工作流程并推动收入恢复。"
       }
     }
   },
@@ -19,6 +22,11 @@
           "slug": "integration-crm",
           "term": "Intégration CRM",
           "definition": "Le processus de connexion des systèmes de gestion de la relation client avec d'autres applications métier pour synchroniser les données clients, automatiser les flux de travail et fournir une vue unifiée des interactions clients."
+        },
+        "zh": {
+          "slug": "crm-jicheng",
+          "term": "CRM集成",
+          "definition": "将客户关系管理系统与其他业务应用程序连接的过程，以同步客户数据、自动化工作流程并提供客户互动的统一视图。"
         }
       }
     },
@@ -31,6 +39,11 @@
           "slug": "automatisation-des-flux",
           "term": "Automatisation des Flux de Travail",
           "definition": "L'utilisation de la technologie pour automatiser les processus et fonctions métier complexes, réduisant les tâches manuelles et améliorant l'efficacité grâce à la logique basée sur des règles et à la prise de décision alimentée par l'IA."
+        },
+        "zh": {
+          "slug": "gongzuoliu-zidonghua",
+          "term": "工作流程自动化",
+          "definition": "利用技术自动化复杂的业务流程和功能，通过基于规则的逻辑和人工智能驱动的决策减少手动任务并提高效率。"
         }
       }
     },
@@ -43,6 +56,11 @@
           "slug": "notation-des-prospects",
           "term": "Notation des Prospects",
           "definition": "Une méthodologie utilisée pour classer les prospects selon une échelle représentant la valeur perçue que chaque prospect représente pour l'organisation, aidant à prioriser les efforts de vente et à améliorer les taux de conversion."
+        },
+        "zh": {
+          "slug": "qianzaikehupingfen",
+          "term": "潜在客户评分",
+          "definition": "一种用于根据每个潜在客户对组织的感知价值进行排名的方法，帮助优先考虑销售工作并提高转化率。"
         }
       }
     },
@@ -55,6 +73,11 @@
           "slug": "suivi-des-conversions",
           "term": "Suivi des Conversions",
           "definition": "Le processus de surveillance et de mesure des actions des clients qui aboutissent à des résultats souhaités, tels que des achats ou des inscriptions, pour évaluer l'efficacité marketing et le retour sur investissement."
+        },
+        "zh": {
+          "slug": "zhuanhua-genzong",
+          "term": "转化跟踪",
+          "definition": "监控和测量导致所需结果（如购买或注册）的客户行为的过程，以评估营销效果和投资回报率。"
         }
       }
     },
@@ -67,6 +90,11 @@
           "slug": "synchronisation-des-donnees",
           "term": "Synchronisation des Données",
           "definition": "Le processus d'établissement de la cohérence entre les données de différentes sources et de maintien de cette cohérence au fil du temps, garantissant que tous les systèmes reflètent les mêmes informations à jour."
+        },
+        "zh": {
+          "slug": "shuju-tongbu",
+          "term": "数据同步",
+          "definition": "建立来自不同来源的数据之间一致性并随时间保持这种一致性的过程，确保所有系统反映相同的最新信息。"
         }
       }
     },
@@ -79,6 +107,11 @@
           "slug": "analytique-ia",
           "term": "Analytique Alimentée par l'IA",
           "definition": "Des techniques d'analyse avancées qui exploitent l'intelligence artificielle et l'apprentissage automatique pour découvrir automatiquement des insights, prédire les résultats et recommander des actions à partir de grands ensembles de données."
+        },
+        "zh": {
+          "slug": "rengongzhineng-fenxi",
+          "term": "人工智能分析",
+          "definition": "利用人工智能和机器学习自动发现洞察、预测结果并从大型数据集中推荐行动的高级分析技术。"
         }
       }
     },
@@ -91,6 +124,11 @@
           "slug": "metriques-de-performance",
           "term": "Métriques de Performance",
           "definition": "Mesures quantifiables utilisées pour suivre et évaluer l'état de processus métier spécifiques, aidant les organisations à évaluer leur succès dans la réalisation d'objectifs clés."
+        },
+        "zh": {
+          "slug": "jixiao-zhibiao",
+          "term": "绩效指标",
+          "definition": "用于跟踪和评估特定业务流程状态的可量化措施，帮助组织评估其在实现关键目标方面的成功。"
         }
       }
     },
@@ -103,6 +141,11 @@
           "slug": "evolutivite-multi-sites",
           "term": "Évolutivité Multi-Sites",
           "definition": "La capacité d'un système à gérer et à faire évoluer efficacement les opérations sur plusieurs emplacements commerciaux ou concessionnaires, en maintenant des performances cohérentes et l'intégrité des données."
+        },
+        "zh": {
+          "slug": "duodian-kuozhanxing",
+          "term": "多点可扩展性",
+          "definition": "系统在多个业务地点或经销商之间高效管理和扩展运营的能力，同时保持一致的性能和数据完整性。"
         }
       }
     },
@@ -115,6 +158,11 @@
           "slug": "recuperation-des-revenus",
           "term": "Récupération des Revenus",
           "definition": "Processus stratégiques et technologies conçus pour récupérer les opportunités de vente perdues et prévenir les fuites de revenus grâce à une meilleure gestion des prospects et à l'engagement client."
+        },
+        "zh": {
+          "slug": "shourushou",
+          "term": "收入恢复",
+          "definition": "旨在通过更好的潜在客户管理和客户参与来重新获得失去的销售机会并防止收入流失的战略流程和技术。"
         }
       }
     },
@@ -127,6 +175,11 @@
           "slug": "ecosysteme-de-prospects",
           "term": "Écosystème de Prospects",
           "definition": "Un réseau complet de systèmes, processus et points de contact interconnectés qui gèrent l'ensemble du cycle de vie des prospects, du contact initial à la conversion et à la fidélisation."
+        },
+        "zh": {
+          "slug": "qianzaikehu-shengtai",
+          "term": "潜在客户生态系统",
+          "definition": "一个全面的互联系统、流程和接触点网络，管理从初次接触到转化和保留的整个潜在客户生命周期。"
         }
       }
     }

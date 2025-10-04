@@ -12,15 +12,21 @@ export default function Page() {
           >
             English
           </Link>
-          {Object.keys(glossaryData.site.translations).map((lang) => (
-            <Link
-              key={lang}
-              href={`/${lang}`}
-              className="text-orange-500 hover:text-orange-400 transition-colors"
-            >
-              {lang === 'fr' ? 'Français' : lang.toUpperCase()}
-            </Link>
-          ))}
+          {Object.keys(glossaryData.site.translations).map((lang) => {
+            const langNames: Record<string, string> = {
+              fr: 'Français',
+              zh: '中文',
+            };
+            return (
+              <Link
+                key={lang}
+                href={`/${lang}`}
+                className="text-orange-500 hover:text-orange-400 transition-colors"
+              >
+                {langNames[lang] || lang.toUpperCase()}
+              </Link>
+            );
+          })}
         </div>
 
         <header className="mb-12">
