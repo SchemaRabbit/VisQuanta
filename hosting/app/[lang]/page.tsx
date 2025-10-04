@@ -5,6 +5,12 @@ import glossaryData from '../../data/glossary.json';
 const languageConfig: Record<string, { title: string; visitText: string }> = {
   fr: { title: 'Glossaire', visitText: 'Visiter' },
   zh: { title: '词汇表', visitText: '访问' },
+  es: { title: 'Glosario', visitText: 'Visitar' },
+  de: { title: 'Glossar', visitText: 'Besuchen' },
+  ar: { title: 'المسرد', visitText: 'زيارة' },
+  hi: { title: 'शब्दावली', visitText: 'यात्रा' },
+  pt: { title: 'Glossário', visitText: 'Visitar' },
+  ru: { title: 'Глоссарий', visitText: 'Посетить' },
 };
 
 export async function generateStaticParams() {
@@ -39,7 +45,15 @@ export default function TranslatedHomePage({ params }: { params: { lang: string 
                 href={`/${lang}`}
                 className="text-orange-500 hover:text-orange-400 transition-colors"
               >
-                {lang === 'fr' ? 'Français' : lang === 'zh' ? '中文' : lang.toUpperCase()}
+                {lang === 'fr' ? 'Français' :
+                 lang === 'zh' ? '中文' :
+                 lang === 'es' ? 'Español' :
+                 lang === 'de' ? 'Deutsch' :
+                 lang === 'ar' ? 'العربية' :
+                 lang === 'hi' ? 'हिन्दी' :
+                 lang === 'pt' ? 'Português' :
+                 lang === 'ru' ? 'Русский' :
+                 lang.toUpperCase()}
               </Link>
             ))}
         </div>

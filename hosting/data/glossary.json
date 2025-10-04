@@ -9,6 +9,24 @@
       },
       "zh": {
         "description": "基于人工智能的汽车经销商解决方案，通过智能CRM集成和性能分析优化潜在客户管理、自动化工作流程并推动收入恢复。"
+      },
+      "es": {
+        "description": "Soluciones de concesionarios automotrices impulsadas por IA que optimizan la gestión de clientes potenciales, automatizan flujos de trabajo e impulsan la recuperación de ingresos mediante la integración CRM inteligente y análisis de rendimiento."
+      },
+      "de": {
+        "description": "KI-gestützte Autohauslösungen, die Lead-Management optimieren, Workflows automatisieren und Umsatzrückgewinnung durch intelligente CRM-Integration und Leistungsanalyse vorantreiben."
+      },
+      "ar": {
+        "description": "حلول وكلاء السيارات المدعومة بالذكاء الاصطناعي التي تعمل على تحسين إدارة العملاء المحتملين وأتمتة سير العمل ودفع استرداد الإيرادات من خلال التكامل الذكي لإدارة علاقات العملاء وتحليل الأداء."
+      },
+      "hi": {
+        "description": "एआई-संचालित ऑटोमोटिव डीलरशिप समाधान जो स्मार्ट CRM एकीकरण और प्रदर्शन विश्लेषण के माध्यम से लीड प्रबंधन को अनुकूलित करते हैं, वर्कफ़्लो को स्वचालित करते हैं और राजस्व वसूली को बढ़ावा देते हैं।"
+      },
+      "pt": {
+        "description": "Soluções de concessionárias automotivas alimentadas por IA que otimizam o gerenciamento de leads, automatizam fluxos de trabalho e impulsionam a recuperação de receita através da integração inteligente de CRM e análise de desempenho."
+      },
+      "ru": {
+        "description": "Решения для автомобильных дилерских центров на основе ИИ, которые оптимизируют управление лидами, автоматизируют рабочие процессы и обеспечивают восстановление доходов через интеллектуальную интеграцию CRM и аналитику производительности."
       }
     }
   },
@@ -27,6 +45,36 @@
           "slug": "crm-jicheng",
           "term": "CRM集成",
           "definition": "将客户关系管理系统与其他业务应用程序连接的过程，以同步客户数据、自动化工作流程并提供客户互动的统一视图。"
+        },
+        "es": {
+          "slug": "integracion-crm",
+          "term": "Integración CRM",
+          "definition": "El proceso de conectar sistemas de gestión de relaciones con clientes con otras aplicaciones empresariales para sincronizar datos de clientes, automatizar flujos de trabajo y proporcionar una vista unificada de las interacciones con los clientes."
+        },
+        "de": {
+          "slug": "crm-integration",
+          "term": "CRM-Integration",
+          "definition": "Der Prozess der Verbindung von Customer-Relationship-Management-Systemen mit anderen Geschäftsanwendungen zur Synchronisierung von Kundendaten, Automatisierung von Workflows und Bereitstellung einer einheitlichen Ansicht der Kundeninteraktionen."
+        },
+        "ar": {
+          "slug": "takaamul-crm",
+          "term": "تكامل إدارة علاقات العملاء",
+          "definition": "عملية ربط أنظمة إدارة علاقات العملاء مع تطبيقات الأعمال الأخرى لمزامنة بيانات العملاء وأتمتة سير العمل وتوفير رؤية موحدة لتفاعلات العملاء."
+        },
+        "hi": {
+          "slug": "crm-ekikaran",
+          "term": "CRM एकीकरण",
+          "definition": "ग्राहक संबंध प्रबंधन प्रणालियों को अन्य व्यावसायिक अनुप्रयोगों के साथ जोड़ने की प्रक्रिया ताकि ग्राहक डेटा को सिंक्रोनाइज़ किया जा सके, वर्कफ़्लो को स्वचालित किया जा सके और ग्राहक इंटरैक्शन का एकीकृत दृश्य प्रदान किया जा सके।"
+        },
+        "pt": {
+          "slug": "integracao-crm",
+          "term": "Integração CRM",
+          "definition": "O processo de conectar sistemas de gerenciamento de relacionamento com o cliente a outros aplicativos de negócios para sincronizar dados de clientes, automatizar fluxos de trabalho e fornecer uma visão unificada das interações com clientes."
+        },
+        "ru": {
+          "slug": "integratsiya-crm",
+          "term": "Интеграция CRM",
+          "definition": "Процесс подключения систем управления взаимоотношениями с клиентами к другим бизнес-приложениям для синхронизации данных о клиентах, автоматизации рабочих процессов и обеспечения единого представления о взаимодействии с клиентами."
         }
       }
     },
@@ -44,6 +92,36 @@
           "slug": "gongzuoliu-zidonghua",
           "term": "工作流程自动化",
           "definition": "利用技术自动化复杂的业务流程和功能，通过基于规则的逻辑和人工智能驱动的决策减少手动任务并提高效率。"
+        },
+        "es": {
+          "slug": "automatizacion-flujo-trabajo",
+          "term": "Automatización de Flujo de Trabajo",
+          "definition": "El uso de tecnología para automatizar procesos y funciones empresariales complejos, reduciendo tareas manuales y mejorando la eficiencia mediante lógica basada en reglas y toma de decisiones impulsada por IA."
+        },
+        "de": {
+          "slug": "workflow-automatisierung",
+          "term": "Workflow-Automatisierung",
+          "definition": "Der Einsatz von Technologie zur Automatisierung komplexer Geschäftsprozesse und -funktionen, zur Reduzierung manueller Aufgaben und zur Verbesserung der Effizienz durch regelbasierte Logik und KI-gestützte Entscheidungsfindung."
+        },
+        "ar": {
+          "slug": "atmata-sair-alamal",
+          "term": "أتمتة سير العمل",
+          "definition": "استخدام التكنولوجيا لأتمتة العمليات والوظائف التجارية المعقدة، وتقليل المهام اليدوية وتحسين الكفاءة من خلال المنطق القائم على القواعد واتخاذ القرارات المدعومة بالذكاء الاصطناعي."
+        },
+        "hi": {
+          "slug": "karyapravah-swachalit",
+          "term": "कार्यप्रवाह स्वचालन",
+          "definition": "जटिल व्यावसायिक प्रक्रियाओं और कार्यों को स्वचालित करने के लिए प्रौद्योगिकी का उपयोग, नियम-आधारित तर्क और एआई-संचालित निर्णय लेने के माध्यम से मैनुअल कार्यों को कम करना और दक्षता में सुधार करना।"
+        },
+        "pt": {
+          "slug": "automatizacao-fluxo-trabalho",
+          "term": "Automatização de Fluxo de Trabalho",
+          "definition": "O uso de tecnologia para automatizar processos e funções de negócios complexos, reduzindo tarefas manuais e melhorando a eficiência através de lógica baseada em regras e tomada de decisões impulsionada por IA."
+        },
+        "ru": {
+          "slug": "avtomatizatsiya-rabochikh-protsessov",
+          "term": "Автоматизация Рабочих Процессов",
+          "definition": "Использование технологий для автоматизации сложных бизнес-процессов и функций, сокращения ручных задач и повышения эффективности с помощью логики на основе правил и принятия решений на основе ИИ."
         }
       }
     },
@@ -61,6 +139,36 @@
           "slug": "qianzaikehupingfen",
           "term": "潜在客户评分",
           "definition": "一种用于根据每个潜在客户对组织的感知价值进行排名的方法，帮助优先考虑销售工作并提高转化率。"
+        },
+        "es": {
+          "slug": "puntuacion-prospectos",
+          "term": "Puntuación de Prospectos",
+          "definition": "Una metodología utilizada para clasificar prospectos según una escala que representa el valor percibido que cada prospecto representa para la organización, ayudando a priorizar los esfuerzos de ventas y mejorar las tasas de conversión."
+        },
+        "de": {
+          "slug": "lead-bewertung",
+          "term": "Lead-Bewertung",
+          "definition": "Eine Methodik zur Einstufung von Interessenten anhand einer Skala, die den wahrgenommenen Wert jedes Leads für das Unternehmen darstellt und dabei hilft, Vertriebsanstrengungen zu priorisieren und Konversionsraten zu verbessern."
+        },
+        "ar": {
+          "slug": "taqyim-alumala-almuhtaleen",
+          "term": "تقييم العملاء المحتملين",
+          "definition": "منهجية تُستخدم لتصنيف العملاء المحتملين مقابل مقياس يمثل القيمة المدركة التي يمثلها كل عميل محتمل للمنظمة، مما يساعد على إعطاء الأولوية لجهود المبيعات وتحسين معدلات التحويل."
+        },
+        "hi": {
+          "slug": "lead-scoring",
+          "term": "लीड स्कोरिंग",
+          "definition": "संभावित ग्राहकों को उनके द्वारा संगठन के लिए प्रतिनिधित्व किए जाने वाले मूल्य के आधार पर एक पैमाने के विरुद्ध रैंक करने के लिए उपयोग की जाने वाली पद्धति, जो बिक्री प्रयासों को प्राथमिकता देने और रूपांतरण दरों में सुधार करने में मदद करती है।"
+        },
+        "pt": {
+          "slug": "pontuacao-leads",
+          "term": "Pontuação de Leads",
+          "definition": "Uma metodologia usada para classificar prospects em uma escala que representa o valor percebido que cada lead representa para a organização, ajudando a priorizar esforços de vendas e melhorar taxas de conversão."
+        },
+        "ru": {
+          "slug": "otsenka-lidov",
+          "term": "Оценка Лидов",
+          "definition": "Методология, используемая для ранжирования потенциальных клиентов по шкале, представляющей воспринимаемую ценность каждого лида для организации, помогающая расставлять приоритеты в усилиях по продажам и улучшать коэффициенты конверсии."
         }
       }
     },
@@ -78,6 +186,36 @@
           "slug": "zhuanhua-genzong",
           "term": "转化跟踪",
           "definition": "监控和测量导致所需结果（如购买或注册）的客户行为的过程，以评估营销效果和投资回报率。"
+        },
+        "es": {
+          "slug": "seguimiento-conversiones",
+          "term": "Seguimiento de Conversiones",
+          "definition": "El proceso de monitorear y medir las acciones de los clientes que resultan en resultados deseados, como compras o registros, para evaluar la efectividad del marketing y el ROI."
+        },
+        "de": {
+          "slug": "conversion-tracking",
+          "term": "Conversion-Tracking",
+          "definition": "Der Prozess der Überwachung und Messung von Kundenaktionen, die zu gewünschten Ergebnissen wie Käufen oder Anmeldungen führen, um die Marketingeffektivität und den ROI zu bewerten."
+        },
+        "ar": {
+          "slug": "tabaat-altahweel",
+          "term": "تتبع التحويل",
+          "definition": "عملية مراقبة وقياس إجراءات العملاء التي تؤدي إلى النتائج المرغوبة، مثل عمليات الشراء أو الاشتراكات، لتقييم فعالية التسويق والعائد على الاستثمار."
+        },
+        "hi": {
+          "slug": "rupantaran-tracking",
+          "term": "रूपांतरण ट्रैकिंग",
+          "definition": "ग्राहक क्रियाओं की निगरानी और माप की प्रक्रिया जो वांछित परिणामों में परिणत होती है, जैसे खरीद या साइन-अप, विपणन प्रभावशीलता और आरओआई का मूल्यांकन करने के लिए।"
+        },
+        "pt": {
+          "slug": "rastreamento-conversoes",
+          "term": "Rastreamento de Conversões",
+          "definition": "O processo de monitorar e medir ações de clientes que resultam em resultados desejados, como compras ou inscrições, para avaliar a eficácia do marketing e o ROI."
+        },
+        "ru": {
+          "slug": "otslezhivanie-konversiy",
+          "term": "Отслеживание Конверсий",
+          "definition": "Процесс мониторинга и измерения действий клиентов, которые приводят к желаемым результатам, таким как покупки или регистрации, для оценки эффективности маркетинга и окупаемости инвестиций."
         }
       }
     },
@@ -95,6 +233,36 @@
           "slug": "shuju-tongbu",
           "term": "数据同步",
           "definition": "建立来自不同来源的数据之间一致性并随时间保持这种一致性的过程，确保所有系统反映相同的最新信息。"
+        },
+        "es": {
+          "slug": "sincronizacion-datos",
+          "term": "Sincronización de Datos",
+          "definition": "El proceso de establecer consistencia entre datos de diferentes fuentes y mantener esta consistencia a lo largo del tiempo, asegurando que todos los sistemas reflejen la misma información actualizada."
+        },
+        "de": {
+          "slug": "datensynchronisation",
+          "term": "Datensynchronisation",
+          "definition": "Der Prozess der Herstellung von Konsistenz zwischen Daten aus verschiedenen Quellen und der Aufrechterhaltung dieser Konsistenz im Laufe der Zeit, um sicherzustellen, dass alle Systeme dieselben aktuellen Informationen widerspiegeln."
+        },
+        "ar": {
+          "slug": "muazana-albianat",
+          "term": "مزامنة البيانات",
+          "definition": "عملية إنشاء الاتساق بين البيانات من مصادر مختلفة والحفاظ على هذا الاتساق بمرور الوقت، مما يضمن أن جميع الأنظمة تعكس نفس المعلومات المحدثة."
+        },
+        "hi": {
+          "slug": "data-samkalikaran",
+          "term": "डेटा सिंक्रनाइज़ेशन",
+          "definition": "विभिन्न स्रोतों से डेटा के बीच स्थिरता स्थापित करने और समय के साथ इस स्थिरता को बनाए रखने की प्रक्रिया, यह सुनिश्चित करते हुए कि सभी सिस्टम एक ही अद्यतन जानकारी को प्रतिबिंबित करते हैं।"
+        },
+        "pt": {
+          "slug": "sincronizacao-dados",
+          "term": "Sincronização de Dados",
+          "definition": "O processo de estabelecer consistência entre dados de diferentes fontes e manter essa consistência ao longo do tempo, garantindo que todos os sistemas reflitam as mesmas informações atualizadas."
+        },
+        "ru": {
+          "slug": "sinkhronizatsiya-dannykh",
+          "term": "Синхронизация Данных",
+          "definition": "Процесс установления согласованности между данными из разных источников и поддержания этой согласованности с течением времени, обеспечивая отражение одной и той же актуальной информации во всех системах."
         }
       }
     },
@@ -112,6 +280,36 @@
           "slug": "rengongzhineng-fenxi",
           "term": "人工智能分析",
           "definition": "利用人工智能和机器学习自动发现洞察、预测结果并从大型数据集中推荐行动的高级分析技术。"
+        },
+        "es": {
+          "slug": "analitica-ia",
+          "term": "Analítica Impulsada por IA",
+          "definition": "Técnicas analíticas avanzadas que aprovechan la inteligencia artificial y el aprendizaje automático para descubrir automáticamente conocimientos, predecir resultados y recomendar acciones a partir de grandes conjuntos de datos."
+        },
+        "de": {
+          "slug": "ki-gestutzte-analytik",
+          "term": "KI-gestützte Analytik",
+          "definition": "Fortgeschrittene Analysetechniken, die künstliche Intelligenz und maschinelles Lernen nutzen, um automatisch Erkenntnisse zu entdecken, Ergebnisse vorherzusagen und Aktionen aus großen Datensätzen zu empfehlen."
+        },
+        "ar": {
+          "slug": "tahlilat-alzaka-alasnai",
+          "term": "التحليلات المدعومة بالذكاء الاصطناعي",
+          "definition": "تقنيات تحليلية متقدمة تستفيد من الذكاء الاصطناعي والتعلم الآلي لاكتشاف الرؤى تلقائيًا والتنبؤ بالنتائج والتوصية بالإجراءات من مجموعات البيانات الكبيرة."
+        },
+        "hi": {
+          "slug": "ai-sanchaalit-vishleshan",
+          "term": "AI-संचालित विश्लेषण",
+          "definition": "उन्नत विश्लेषणात्मक तकनीकें जो बड़े डेटासेट से अंतर्दृष्टि की स्वचालित रूप से खोज करने, परिणामों की भविष्यवाणी करने और कार्यों की सिफारिश करने के लिए कृत्रिम बुद्धिमत्ता और मशीन लर्निंग का लाभ उठाती हैं।"
+        },
+        "pt": {
+          "slug": "analitica-ia",
+          "term": "Análise Impulsionada por IA",
+          "definition": "Técnicas analíticas avançadas que aproveitam a inteligência artificial e o aprendizado de máquina para descobrir automaticamente insights, prever resultados e recomendar ações a partir de grandes conjuntos de dados."
+        },
+        "ru": {
+          "slug": "analitika-na-osnove-ii",
+          "term": "Аналитика на Основе ИИ",
+          "definition": "Передовые аналитические методы, использующие искусственный интеллект и машинное обучение для автоматического обнаружения идей, прогнозирования результатов и рекомендации действий на основе больших наборов данных."
         }
       }
     },
@@ -129,6 +327,36 @@
           "slug": "jixiao-zhibiao",
           "term": "绩效指标",
           "definition": "用于跟踪和评估特定业务流程状态的可量化措施，帮助组织评估其在实现关键目标方面的成功。"
+        },
+        "es": {
+          "slug": "metricas-rendimiento",
+          "term": "Métricas de Rendimiento",
+          "definition": "Medidas cuantificables utilizadas para rastrear y evaluar el estado de procesos empresariales específicos, ayudando a las organizaciones a evaluar su éxito en el logro de objetivos clave."
+        },
+        "de": {
+          "slug": "leistungskennzahlen",
+          "term": "Leistungskennzahlen",
+          "definition": "Quantifizierbare Messgrößen zur Verfolgung und Bewertung des Status spezifischer Geschäftsprozesse, die Organisationen helfen, ihren Erfolg bei der Erreichung wichtiger Ziele zu bewerten."
+        },
+        "ar": {
+          "slug": "maqayis-alada",
+          "term": "مقاييس الأداء",
+          "definition": "مقاييس قابلة للقياس تُستخدم لتتبع وتقييم حالة عمليات الأعمال المحددة، مما يساعد المنظمات على تقييم نجاحها في تحقيق الأهداف الرئيسية."
+        },
+        "hi": {
+          "slug": "prdarshan-maapdand",
+          "term": "प्रदर्शन मापदंड",
+          "definition": "विशिष्ट व्यावसायिक प्रक्रियाओं की स्थिति को ट्रैक और मूल्यांकन करने के लिए उपयोग किए जाने वाले मापनीय उपाय, जो संगठनों को प्रमुख उद्देश्यों को प्राप्त करने में उनकी सफलता का मूल्यांकन करने में मदद करते हैं।"
+        },
+        "pt": {
+          "slug": "metricas-desempenho",
+          "term": "Métricas de Desempenho",
+          "definition": "Medidas quantificáveis usadas para rastrear e avaliar o status de processos de negócios específicos, ajudando as organizações a avaliar seu sucesso em alcançar objetivos-chave."
+        },
+        "ru": {
+          "slug": "metriki-proizvoditelnosti",
+          "term": "Метрики Производительности",
+          "definition": "Количественные показатели, используемые для отслеживания и оценки состояния конкретных бизнес-процессов, помогающие организациям оценивать свой успех в достижении ключевых целей."
         }
       }
     },
@@ -146,6 +374,36 @@
           "slug": "duodian-kuozhanxing",
           "term": "多点可扩展性",
           "definition": "系统在多个业务地点或经销商之间高效管理和扩展运营的能力，同时保持一致的性能和数据完整性。"
+        },
+        "es": {
+          "slug": "escalabilidad-multiple-ubicaciones",
+          "term": "Escalabilidad Multi-Ubicación",
+          "definition": "La capacidad de un sistema para gestionar y escalar eficientemente las operaciones en múltiples ubicaciones comerciales o concesionarios, manteniendo un rendimiento consistente e integridad de datos."
+        },
+        "de": {
+          "slug": "mehrstandort-skalierbarkeit",
+          "term": "Mehrstandort-Skalierbarkeit",
+          "definition": "Die Fähigkeit eines Systems, Operationen über mehrere Geschäftsstandorte oder Autohäuser hinweg effizient zu verwalten und zu skalieren, während konsistente Leistung und Datenintegrität gewährleistet werden."
+        },
+        "ar": {
+          "slug": "qabiliyat-altawsuu-mutaadid-almawaqie",
+          "term": "قابلية التوسع متعدد المواقع",
+          "definition": "قدرة النظام على إدارة وتوسيع نطاق العمليات بكفاءة عبر مواقع أعمال أو وكلاء متعددين، مع الحفاظ على أداء متسق وسلامة البيانات."
+        },
+        "hi": {
+          "slug": "bahu-sthan-масштабируемость",
+          "term": "बहु-स्थान स्केलेबिलिटी",
+          "definition": "कई व्यावसायिक स्थानों या डीलरशिप में संचालन को कुशलतापूर्वक प्रबंधित और स्केल करने की प्रणाली की क्षमता, लगातार प्रदर्शन और डेटा अखंडता बनाए रखते हुए।"
+        },
+        "pt": {
+          "slug": "escalabilidade-multiplos-locais",
+          "term": "Escalabilidade Multi-Local",
+          "definition": "A capacidade de um sistema de gerenciar e escalar eficientemente operações em vários locais de negócios ou concessionárias, mantendo desempenho consistente e integridade de dados."
+        },
+        "ru": {
+          "slug": "masshtabiruemost-neskolkikh-lokatsiy",
+          "term": "Масштабируемость Нескольких Локаций",
+          "definition": "Способность системы эффективно управлять и масштабировать операции в нескольких бизнес-локациях или дилерских центрах, поддерживая стабильную производительность и целостность данных."
         }
       }
     },
@@ -163,6 +421,36 @@
           "slug": "shourushou",
           "term": "收入恢复",
           "definition": "旨在通过更好的潜在客户管理和客户参与来重新获得失去的销售机会并防止收入流失的战略流程和技术。"
+        },
+        "es": {
+          "slug": "recuperacion-ingresos",
+          "term": "Recuperación de Ingresos",
+          "definition": "Procesos estratégicos y tecnologías diseñadas para recuperar oportunidades de ventas perdidas y prevenir fugas de ingresos mediante una mejor gestión de clientes potenciales y compromiso del cliente."
+        },
+        "de": {
+          "slug": "umsatzruckgewinnung",
+          "term": "Umsatzrückgewinnung",
+          "definition": "Strategische Prozesse und Technologien zur Rückgewinnung verlorener Verkaufschancen und zur Verhinderung von Umsatzverlusten durch besseres Lead-Management und Kundenbindung."
+        },
+        "ar": {
+          "slug": "istirdaad-aliradat",
+          "term": "استرداد الإيرادات",
+          "definition": "عمليات واستراتيجيات تكنولوجية مصممة لاستعادة فرص المبيعات المفقودة ومنع تسرب الإيرادات من خلال إدارة أفضل للعملاء المحتملين ومشاركة العملاء."
+        },
+        "hi": {
+          "slug": "rajasva-vasuli",
+          "term": "राजस्व वसूली",
+          "definition": "बेहतर लीड प्रबंधन और ग्राहक जुड़ाव के माध्यम से खोए हुए बिक्री अवसरों को पुनः प्राप्त करने और राजस्व रिसाव को रोकने के लिए डिज़ाइन की गई रणनीतिक प्रक्रियाएं और प्रौद्योगिकियां।"
+        },
+        "pt": {
+          "slug": "recuperacao-receita",
+          "term": "Recuperação de Receita",
+          "definition": "Processos estratégicos e tecnologias projetadas para recapturar oportunidades de vendas perdidas e prevenir vazamento de receita através de melhor gerenciamento de leads e engajamento de clientes."
+        },
+        "ru": {
+          "slug": "vosstanovlenie-dokhodov",
+          "term": "Восстановление Доходов",
+          "definition": "Стратегические процессы и технологии, предназначенные для возврата упущенных возможностей продаж и предотвращения утечки доходов за счет лучшего управления лидами и вовлечения клиентов."
         }
       }
     },
@@ -180,6 +468,741 @@
           "slug": "qianzaikehu-shengtai",
           "term": "潜在客户生态系统",
           "definition": "一个全面的互联系统、流程和接触点网络，管理从初次接触到转化和保留的整个潜在客户生命周期。"
+        },
+        "es": {
+          "slug": "ecosistema-prospectos",
+          "term": "Ecosistema de Prospectos",
+          "definition": "Una red integral de sistemas, procesos y puntos de contacto interconectados que gestionan todo el ciclo de vida de los clientes potenciales desde el contacto inicial hasta la conversión y retención."
+        },
+        "de": {
+          "slug": "lead-okosystem",
+          "term": "Lead-Ökosystem",
+          "definition": "Ein umfassendes Netzwerk vernetzter Systeme, Prozesse und Berührungspunkte, die den gesamten Lebenszyklus von Leads vom ersten Kontakt über die Konversion bis zur Bindung verwalten."
+        },
+        "ar": {
+          "slug": "manzumat-alumala-almuhtaleen",
+          "term": "منظومة العملاء المحتملين",
+          "definition": "شبكة شاملة من الأنظمة والعمليات ونقاط الاتصال المترابطة التي تدير دورة حياة العملاء المحتملين بأكملها من الاتصال الأولي حتى التحويل والاحتفاظ."
+        },
+        "hi": {
+          "slug": "lead-paristhitiki-tantra",
+          "term": "लीड पारिस्थितिकी तंत्र",
+          "definition": "परस्पर जुड़े सिस्टम, प्रक्रियाओं और टचपॉइंट्स का एक व्यापक नेटवर्क जो प्रारंभिक संपर्क से लेकर रूपांतरण और प्रतिधारण तक लीड के पूरे जीवनचक्र का प्रबंधन करता है।"
+        },
+        "pt": {
+          "slug": "ecossistema-leads",
+          "term": "Ecossistema de Leads",
+          "definition": "Uma rede abrangente de sistemas, processos e pontos de contato interconectados que gerenciam todo o ciclo de vida dos leads desde o contato inicial até a conversão e retenção."
+        },
+        "ru": {
+          "slug": "ekosistema-lidov",
+          "term": "Экосистема Лидов",
+          "definition": "Комплексная сеть взаимосвязанных систем, процессов и точек контакта, которая управляет всем жизненным циклом лидов от первоначального контакта до конверсии и удержания."
+        }
+      }
+    },
+    {
+      "id": "lead-loss-mitigation",
+      "term": "Lead Loss Mitigation",
+      "definition": "Strategies and technologies designed to prevent leads from being lost due to delayed responses, poor follow-up, or inadequate engagement, ensuring maximum conversion opportunities.",
+      "translations": {
+        "fr": {
+          "slug": "attenuation-perte-prospects",
+          "term": "Atténuation de la Perte de Prospects",
+          "definition": "Stratégies et technologies conçues pour empêcher la perte de prospects en raison de réponses retardées, d'un suivi inadéquat ou d'un engagement insuffisant, garantissant des opportunités de conversion maximales."
+        },
+        "zh": {
+          "slug": "qianzaikehu-sunshi-jianqing",
+          "term": "潜在客户流失缓解",
+          "definition": "旨在防止因响应延迟、跟进不力或参与不足而导致潜在客户流失的策略和技术，确保最大化转化机会。"
+        },
+        "es": {
+          "slug": "mitigacion-perdida-prospectos",
+          "term": "Mitigación de Pérdida de Prospectos",
+          "definition": "Estrategias y tecnologías diseñadas para evitar que se pierdan clientes potenciales debido a respuestas retrasadas, seguimiento deficiente o compromiso inadecuado, asegurando las máximas oportunidades de conversión."
+        },
+        "de": {
+          "slug": "lead-verlust-minderung",
+          "term": "Lead-Verlust-Minderung",
+          "definition": "Strategien und Technologien zur Verhinderung des Verlusts von Leads aufgrund verzögerter Reaktionen, schlechter Nachverfolgung oder unzureichendem Engagement, um maximale Konversionsmöglichkeiten zu gewährleisten."
+        },
+        "ar": {
+          "slug": "takhfif-faqd-alumala-almuhtaleen",
+          "term": "تخفيف فقد العملاء المحتملين",
+          "definition": "استراتيجيات وتقنيات مصممة لمنع فقدان العملاء المحتملين بسبب الردود المتأخرة أو المتابعة الضعيفة أو المشاركة غير الكافية، مما يضمن الحد الأقصى من فرص التحويل."
+        },
+        "hi": {
+          "slug": "lead-ह्रास-न्यूनीकरण",
+          "term": "लीड हानि न्यूनीकरण",
+          "definition": "विलंबित प्रतिक्रियाओं, खराब फॉलो-अप या अपर्याप्त जुड़ाव के कारण लीड खोने से रोकने के लिए डिज़ाइन की गई रणनीतियाँ और प्रौद्योगिकियां, अधिकतम रूपांतरण अवसरों को सुनिश्चित करते हुए।"
+        },
+        "pt": {
+          "slug": "mitigacao-perda-leads",
+          "term": "Mitigação de Perda de Leads",
+          "definition": "Estratégias e tecnologias projetadas para evitar que leads sejam perdidos devido a respostas atrasadas, acompanhamento inadequado ou engajamento insuficiente, garantindo o máximo de oportunidades de conversão."
+        },
+        "ru": {
+          "slug": "snizhenie-poteri-lidov",
+          "term": "Снижение Потери Лидов",
+          "definition": "Стратегии и технологии, предназначенные для предотвращения потери лидов из-за задержки ответов, плохого последующего контакта или недостаточного вовлечения, обеспечивая максимальные возможности конверсии."
+        }
+      }
+    },
+    {
+      "id": "speed-to-lead",
+      "term": "Speed to Lead",
+      "definition": "The time it takes for a sales team to respond to a new lead inquiry, a critical metric that directly impacts conversion rates and customer satisfaction.",
+      "translations": {
+        "fr": {
+          "slug": "vitesse-reponse-prospect",
+          "term": "Vitesse de Réponse aux Prospects",
+          "definition": "Le temps nécessaire à une équipe de vente pour répondre à une nouvelle demande de prospect, une mesure critique qui impacte directement les taux de conversion et la satisfaction client."
+        },
+        "zh": {
+          "slug": "qianzaikehu-xiangying-sudu",
+          "term": "潜在客户响应速度",
+          "definition": "销售团队响应新潜在客户询问所需的时间，这是直接影响转化率和客户满意度的关键指标。"
+        },
+        "es": {
+          "slug": "velocidad-respuesta-prospectos",
+          "term": "Velocidad de Respuesta a Prospectos",
+          "definition": "El tiempo que tarda un equipo de ventas en responder a una nueva consulta de cliente potencial, una métrica crítica que impacta directamente las tasas de conversión y la satisfacción del cliente."
+        },
+        "de": {
+          "slug": "lead-reaktionszeit",
+          "term": "Lead-Reaktionszeit",
+          "definition": "Die Zeit, die ein Vertriebsteam benötigt, um auf eine neue Lead-Anfrage zu reagieren, eine kritische Kennzahl, die sich direkt auf Konversionsraten und Kundenzufriedenheit auswirkt."
+        },
+        "ar": {
+          "slug": "suraat-alistijaba-lilaumala",
+          "term": "سرعة الاستجابة للعملاء",
+          "definition": "الوقت الذي يستغرقه فريق المبيعات للرد على استفسار عميل محتمل جديد، وهو مقياس حاسم يؤثر بشكل مباشر على معدلات التحويل ورضا العملاء."
+        },
+        "hi": {
+          "slug": "lead-pratikriya-gati",
+          "term": "लीड प्रतिक्रिया गति",
+          "definition": "एक नए लीड पूछताछ का जवाब देने में बिक्री टीम को लगने वाला समय, एक महत्वपूर्ण मीट्रिक जो रूपांतरण दर और ग्राहक संतुष्टि को सीधे प्रभावित करता है।"
+        },
+        "pt": {
+          "slug": "velocidade-resposta-leads",
+          "term": "Velocidade de Resposta a Leads",
+          "definition": "O tempo que uma equipe de vendas leva para responder a uma nova consulta de lead, uma métrica crítica que impacta diretamente as taxas de conversão e a satisfação do cliente."
+        },
+        "ru": {
+          "slug": "skorost-otveta-lidam",
+          "term": "Скорость Ответа Лидам",
+          "definition": "Время, которое требуется отделу продаж для ответа на новый запрос лида, критически важная метрика, которая напрямую влияет на показатели конверсии и удовлетворенность клиентов."
+        }
+      }
+    },
+    {
+      "id": "bdc",
+      "term": "BDC (Business Development Center)",
+      "definition": "A dedicated team or department within a dealership focused on managing incoming leads, setting appointments, and nurturing customer relationships through phone and digital communications.",
+      "translations": {
+        "fr": {
+          "slug": "centre-developpement-commercial",
+          "term": "BDC (Centre de Développement Commercial)",
+          "definition": "Une équipe ou un département dédié au sein d'une concession axé sur la gestion des prospects entrants, la prise de rendez-vous et l'entretien des relations clients par téléphone et communications numériques."
+        },
+        "zh": {
+          "slug": "yewu-fazhan-zhongxin",
+          "term": "BDC（业务发展中心）",
+          "definition": "经销商内部专门负责管理进入的潜在客户、安排预约并通过电话和数字通信培养客户关系的团队或部门。"
+        },
+        "es": {
+          "slug": "centro-desarrollo-negocio",
+          "term": "BDC (Centro de Desarrollo de Negocios)",
+          "definition": "Un equipo o departamento dedicado dentro de un concesionario enfocado en gestionar clientes potenciales entrantes, programar citas y nutrir relaciones con clientes a través de comunicaciones telefónicas y digitales."
+        },
+        "de": {
+          "slug": "business-development-zentrum",
+          "term": "BDC (Business Development Center)",
+          "definition": "Ein dediziertes Team oder eine Abteilung innerhalb eines Autohauses, das sich auf die Verwaltung eingehender Leads, die Terminvereinbarung und die Pflege von Kundenbeziehungen über Telefon und digitale Kommunikation konzentriert."
+        },
+        "ar": {
+          "slug": "markaz-tatwir-alaaemal",
+          "term": "BDC (مركز تطوير الأعمال)",
+          "definition": "فريق أو قسم مخصص داخل الوكالة يركز على إدارة العملاء المحتملين الواردين، وتحديد المواعيد، ورعاية علاقات العملاء من خلال الاتصالات الهاتفية والرقمية."
+        },
+        "hi": {
+          "slug": "vyavsay-vikas-kendra",
+          "term": "BDC (व्यवसाय विकास केंद्र)",
+          "definition": "डीलरशिप के भीतर एक समर्पित टीम या विभाग जो आने वाले लीड को प्रबंधित करने, अपॉइंटमेंट सेट करने और फोन और डिजिटल संचार के माध्यम से ग्राहक संबंधों को पोषित करने पर केंद्रित है।"
+        },
+        "pt": {
+          "slug": "centro-desenvolvimento-negocios",
+          "term": "BDC (Centro de Desenvolvimento de Negócios)",
+          "definition": "Uma equipe ou departamento dedicado dentro de uma concessionária focado em gerenciar leads recebidos, agendar compromissos e nutrir relacionamentos com clientes por meio de comunicações telefônicas e digitais."
+        },
+        "ru": {
+          "slug": "tsentr-razvitiya-biznesa",
+          "term": "BDC (Центр Развития Бизнеса)",
+          "definition": "Специализированная команда или отдел в дилерском центре, занимающийся управлением входящими лидами, назначением встреч и развитием отношений с клиентами через телефонную и цифровую коммуникацию."
+        }
+      }
+    },
+    {
+      "id": "dms",
+      "term": "DMS (Dealer Management System)",
+      "definition": "Comprehensive software platform used by automotive dealerships to manage sales, inventory, customer relationships, service operations, and financial transactions in one integrated system.",
+      "translations": {
+        "fr": {
+          "slug": "systeme-gestion-concessionnaire",
+          "term": "DMS (Système de Gestion de Concessionnaire)",
+          "definition": "Plateforme logicielle complète utilisée par les concessionnaires automobiles pour gérer les ventes, l'inventaire, les relations clients, les opérations de service et les transactions financières dans un système intégré."
+        },
+        "zh": {
+          "slug": "jingxiaoshang-guanli-xitong",
+          "term": "DMS（经销商管理系统）",
+          "definition": "汽车经销商用于管理销售、库存、客户关系、服务运营和财务交易的综合软件平台，集成在一个系统中。"
+        },
+        "es": {
+          "slug": "sistema-gestion-concesionario",
+          "term": "DMS (Sistema de Gestión de Concesionario)",
+          "definition": "Plataforma de software integral utilizada por concesionarios automotrices para gestionar ventas, inventario, relaciones con clientes, operaciones de servicio y transacciones financieras en un sistema integrado."
+        },
+        "de": {
+          "slug": "händler-management-system",
+          "term": "DMS (Händler-Management-System)",
+          "definition": "Umfassende Softwareplattform, die von Autohäusern verwendet wird, um Verkäufe, Inventar, Kundenbeziehungen, Servicebetrieb und Finanztransaktionen in einem integrierten System zu verwalten."
+        },
+        "ar": {
+          "slug": "nizam-idarat-alwakala",
+          "term": "DMS (نظام إدارة الوكالة)",
+          "definition": "منصة برمجية شاملة تستخدمها وكلاء السيارات لإدارة المبيعات والمخزون وعلاقات العملاء وعمليات الخدمة والمعاملات المالية في نظام متكامل واحد."
+        },
+        "hi": {
+          "slug": "डीलर-प्रबंधन-प्रणाली",
+          "term": "DMS (डीलर प्रबंधन प्रणाली)",
+          "definition": "ऑटोमोटिव डीलरशिप द्वारा बिक्री, इन्वेंट्री, ग्राहक संबंध, सेवा संचालन और वित्तीय लेनदेन को एक एकीकृत प्रणाली में प्रबंधित करने के लिए उपयोग किया जाने वाला व्यापक सॉफ़्टवेयर प्लेटफ़ॉर्म।"
+        },
+        "pt": {
+          "slug": "sistema-gestao-concessionaria",
+          "term": "DMS (Sistema de Gestão de Concessionária)",
+          "definition": "Plataforma de software abrangente usada por concessionárias automotivas para gerenciar vendas, inventário, relacionamentos com clientes, operações de serviço e transações financeiras em um sistema integrado."
+        },
+        "ru": {
+          "slug": "sistema-upravleniya-dilerom",
+          "term": "DMS (Система Управления Дилером)",
+          "definition": "Комплексная программная платформа, используемая автомобильными дилерами для управления продажами, запасами, отношениями с клиентами, сервисными операциями и финансовыми транзакциями в одной интегрированной системе."
+        }
+      }
+    },
+    {
+      "id": "lead-nurturing",
+      "term": "Lead Nurturing",
+      "definition": "The process of developing relationships with prospects at every stage of the sales funnel through targeted content, personalized communications, and timely follow-ups to move them toward a purchase decision.",
+      "translations": {
+        "fr": {
+          "slug": "maturation-prospects",
+          "term": "Maturation des Prospects",
+          "definition": "Le processus de développement de relations avec les prospects à chaque étape de l'entonnoir de vente par le biais de contenu ciblé, de communications personnalisées et de suivis opportuns pour les amener vers une décision d'achat."
+        },
+        "zh": {
+          "slug": "qianzaikehu-peiyu",
+          "term": "潜在客户培育",
+          "definition": "通过有针对性的内容、个性化沟通和及时跟进，在销售漏斗的每个阶段与潜在客户建立关系，推动他们做出购买决策的过程。"
+        },
+        "es": {
+          "slug": "nutricion-prospectos",
+          "term": "Nutrición de Prospectos",
+          "definition": "El proceso de desarrollar relaciones con clientes potenciales en cada etapa del embudo de ventas a través de contenido dirigido, comunicaciones personalizadas y seguimientos oportunos para moverlos hacia una decisión de compra."
+        },
+        "de": {
+          "slug": "lead-pflege",
+          "term": "Lead-Pflege",
+          "definition": "Der Prozess der Entwicklung von Beziehungen zu Interessenten in jeder Phase des Verkaufstrichters durch gezielte Inhalte, personalisierte Kommunikation und zeitnahe Nachverfolgung, um sie zu einer Kaufentscheidung zu bewegen."
+        },
+        "ar": {
+          "slug": "riaayat-alumala-almuhtaleen",
+          "term": "رعاية العملاء المحتملين",
+          "definition": "عملية تطوير العلاقات مع العملاء المحتملين في كل مرحلة من مراحل مسار المبيعات من خلال محتوى مستهدف واتصالات مخصصة ومتابعات في الوقت المناسب لتحريكهم نحو قرار الشراء."
+        },
+        "hi": {
+          "slug": "lead-पोषण",
+          "term": "लीड पोषण",
+          "definition": "लक्षित सामग्री, व्यक्तिगत संचार और समय पर फॉलो-अप के माध्यम से बिक्री फ़नल के हर चरण में संभावनाओं के साथ संबंध विकसित करने की प्रक्रिया, ताकि उन्हें खरीद निर्णय की ओर ले जाया जा सके।"
+        },
+        "pt": {
+          "slug": "nutricao-leads",
+          "term": "Nutrição de Leads",
+          "definition": "O processo de desenvolver relacionamentos com prospects em cada estágio do funil de vendas por meio de conteúdo direcionado, comunicações personalizadas e acompanhamentos oportunos para movê-los em direção a uma decisão de compra."
+        },
+        "ru": {
+          "slug": "vzrashchivanie-lidov",
+          "term": "Взращивание Лидов",
+          "definition": "Процесс развития отношений с потенциальными клиентами на каждом этапе воронки продаж посредством целевого контента, персонализированных коммуникаций и своевременных последующих действий для продвижения их к решению о покупке."
+        }
+      }
+    },
+    {
+      "id": "sms-automation",
+      "term": "SMS Automation",
+      "definition": "The use of automated text messaging systems to send timely, personalized communications to leads and customers, enabling instant engagement and improving response rates while maintaining TCPA compliance.",
+      "translations": {
+        "fr": {
+          "slug": "automatisation-sms",
+          "term": "Automatisation SMS",
+          "definition": "L'utilisation de systèmes de messagerie texte automatisés pour envoyer des communications opportunes et personnalisées aux prospects et clients, permettant un engagement instantané et améliorant les taux de réponse tout en maintenant la conformité TCPA."
+        },
+        "zh": {
+          "slug": "duanxin-zidonghua",
+          "term": "短信自动化",
+          "definition": "使用自动短信系统向潜在客户和客户发送及时、个性化的通信，实现即时参与并提高响应率，同时保持TCPA合规性。"
+        },
+        "es": {
+          "slug": "automatizacion-sms",
+          "term": "Automatización de SMS",
+          "definition": "El uso de sistemas automatizados de mensajes de texto para enviar comunicaciones oportunas y personalizadas a clientes potenciales y clientes, permitiendo un compromiso instantáneo y mejorando las tasas de respuesta mientras se mantiene el cumplimiento de TCPA."
+        },
+        "de": {
+          "slug": "sms-automatisierung",
+          "term": "SMS-Automatisierung",
+          "definition": "Der Einsatz automatisierter Textnachrichtensysteme zum Versenden zeitnaher, personalisierter Mitteilungen an Leads und Kunden, um sofortiges Engagement zu ermöglichen und Antwortraten zu verbessern, während die TCPA-Konformität gewahrt bleibt."
+        },
+        "ar": {
+          "slug": "atmata-rrasail-alqasira",
+          "term": "أتمتة الرسائل القصيرة",
+          "definition": "استخدام أنظمة الرسائل النصية الآلية لإرسال اتصالات في الوقت المناسب ومخصصة للعملاء المحتملين والعملاء، مما يتيح المشاركة الفورية وتحسين معدلات الاستجابة مع الحفاظ على الامتثال لـ TCPA."
+        },
+        "hi": {
+          "slug": "sms-स्वचालन",
+          "term": "SMS स्वचालन",
+          "definition": "लीड और ग्राहकों को समय पर, व्यक्तिगत संचार भेजने के लिए स्वचालित टेक्स्ट मैसेजिंग सिस्टम का उपयोग, तत्काल जुड़ाव को सक्षम करना और TCPA अनुपालन बनाए रखते हुए प्रतिक्रिया दरों में सुधार करना।"
+        },
+        "pt": {
+          "slug": "automatizacao-sms",
+          "term": "Automatização de SMS",
+          "definition": "O uso de sistemas automatizados de mensagens de texto para enviar comunicações oportunas e personalizadas a leads e clientes, permitindo engajamento instantâneo e melhorando as taxas de resposta enquanto mantém a conformidade com TCPA."
+        },
+        "ru": {
+          "slug": "avtomatizatsiya-sms",
+          "term": "Автоматизация SMS",
+          "definition": "Использование автоматизированных систем текстовых сообщений для отправки своевременных персонализированных коммуникаций лидам и клиентам, обеспечивая мгновенное вовлечение и улучшение показателей ответов при соблюдении требований TCPA."
+        }
+      }
+    },
+    {
+      "id": "reputation-management",
+      "term": "Reputation Management",
+      "definition": "The practice of monitoring, influencing, and maintaining a business's online reputation through review management, customer feedback collection, and strategic response to both positive and negative reviews.",
+      "translations": {
+        "fr": {
+          "slug": "gestion-reputation",
+          "term": "Gestion de la Réputation",
+          "definition": "La pratique de surveillance, d'influence et de maintien de la réputation en ligne d'une entreprise par la gestion des avis, la collecte de commentaires clients et la réponse stratégique aux avis positifs et négatifs."
+        },
+        "zh": {
+          "slug": "shengyu-guanli",
+          "term": "声誉管理",
+          "definition": "通过评论管理、客户反馈收集以及对正面和负面评论的战略性回应来监控、影响和维护企业在线声誉的实践。"
+        },
+        "es": {
+          "slug": "gestion-reputacion",
+          "term": "Gestión de Reputación",
+          "definition": "La práctica de monitorear, influir y mantener la reputación en línea de una empresa a través de la gestión de reseñas, recopilación de comentarios de clientes y respuesta estratégica a reseñas tanto positivas como negativas."
+        },
+        "de": {
+          "slug": "reputationsmanagement",
+          "term": "Reputationsmanagement",
+          "definition": "Die Praxis der Überwachung, Beeinflussung und Aufrechterhaltung des Online-Rufs eines Unternehmens durch Bewertungsmanagement, Kundenrückmeldungen und strategische Reaktion auf positive und negative Bewertungen."
+        },
+        "ar": {
+          "slug": "idarat-alsumea",
+          "term": "إدارة السمعة",
+          "definition": "ممارسة مراقبة والتأثير على والحفاظ على السمعة الإلكترونية للشركة من خلال إدارة المراجعات وجمع تعليقات العملاء والرد الاستراتيجي على المراجعات الإيجابية والسلبية."
+        },
+        "hi": {
+          "slug": "प्रतिष्ठा-प्रबंधन",
+          "term": "प्रतिष्ठा प्रबंधन",
+          "definition": "समीक्षा प्रबंधन, ग्राहक प्रतिक्रिया संग्रह और सकारात्मक और नकारात्मक दोनों समीक्षाओं के लिए रणनीतिक प्रतिक्रिया के माध्यम से किसी व्यवसाय की ऑनलाइन प्रतिष्ठा की निगरानी, प्रभाव और रखरखाव करने का अभ्यास।"
+        },
+        "pt": {
+          "slug": "gestao-reputacao",
+          "term": "Gestão de Reputação",
+          "definition": "A prática de monitorar, influenciar e manter a reputação online de uma empresa por meio de gerenciamento de avaliações, coleta de feedback de clientes e resposta estratégica a avaliações positivas e negativas."
+        },
+        "ru": {
+          "slug": "upravlenie-reputatsiey",
+          "term": "Управление Репутацией",
+          "definition": "Практика мониторинга, влияния и поддержания онлайн-репутации компании через управление отзывами, сбор обратной связи от клиентов и стратегическое реагирование как на положительные, так и на отрицательные отзывы."
+        }
+      }
+    },
+    {
+      "id": "lead-reactivation",
+      "term": "Lead Reactivation",
+      "definition": "The process of re-engaging dormant or cold leads who previously showed interest but did not convert, using targeted outreach and personalized messaging to revive their interest and move them back into the sales pipeline.",
+      "translations": {
+        "fr": {
+          "slug": "reactivation-prospects",
+          "term": "Réactivation des Prospects",
+          "definition": "Le processus de réengagement des prospects dormants ou froids qui ont précédemment montré de l'intérêt mais ne se sont pas convertis, en utilisant une sensibilisation ciblée et des messages personnalisés pour raviver leur intérêt et les ramener dans le pipeline de vente."
+        },
+        "zh": {
+          "slug": "qianzaikehu-chongxin-jihuo",
+          "term": "潜在客户重新激活",
+          "definition": "重新吸引之前表现出兴趣但未转化的休眠或冷淡潜在客户的过程，使用有针对性的外联和个性化消息来重新激发他们的兴趣并将他们带回销售渠道。"
+        },
+        "es": {
+          "slug": "reactivacion-prospectos",
+          "term": "Reactivación de Prospectos",
+          "definition": "El proceso de volver a involucrar a clientes potenciales inactivos o fríos que previamente mostraron interés pero no se convirtieron, utilizando divulgación dirigida y mensajes personalizados para reavivar su interés y devolverlos al canal de ventas."
+        },
+        "de": {
+          "slug": "lead-reaktivierung",
+          "term": "Lead-Reaktivierung",
+          "definition": "Der Prozess der Wiedereinbindung ruhender oder kalter Leads, die zuvor Interesse gezeigt haben, aber nicht konvertierten, unter Verwendung gezielter Ansprache und personalisierter Nachrichten, um ihr Interesse wiederzubeleben und sie zurück in die Verkaufspipeline zu bringen."
+        },
+        "ar": {
+          "slug": "iadat-tanshit-alumala-almuhtaleen",
+          "term": "إعادة تنشيط العملاء المحتملين",
+          "definition": "عملية إعادة إشراك العملاء المحتملين الخاملين أو الباردين الذين أبدوا اهتمامًا سابقًا لكنهم لم يتحولوا، باستخدام التواصل المستهدف والرسائل المخصصة لإحياء اهتمامهم وإعادتهم إلى مسار المبيعات."
+        },
+        "hi": {
+          "slug": "lead-पुनः-सक्रियण",
+          "term": "लीड पुनः सक्रियण",
+          "definition": "निष्क्रिय या ठंडे लीड को फिर से शामिल करने की प्रक्रिया जिन्होंने पहले रुचि दिखाई थी लेकिन परिवर्तित नहीं हुए, लक्षित आउटरीच और व्यक्तिगत संदेश का उपयोग करके उनकी रुचि को फिर से जगाना और उन्हें बिक्री पाइपलाइन में वापस लाना।"
+        },
+        "pt": {
+          "slug": "reativacao-leads",
+          "term": "Reativação de Leads",
+          "definition": "O processo de reengajar leads inativos ou frios que anteriormente demonstraram interesse mas não converteram, usando divulgação direcionada e mensagens personalizadas para reavivar seu interesse e trazê-los de volta ao pipeline de vendas."
+        },
+        "ru": {
+          "slug": "reaktivatsiya-lidov",
+          "term": "Реактивация Лидов",
+          "definition": "Процесс повторного привлечения неактивных или холодных лидов, которые ранее проявляли интерес, но не конвертировались, с использованием целевых обращений и персонализированных сообщений для возрождения их интереса и возврата в воронку продаж."
+        }
+      }
+    },
+    {
+      "id": "sales-conversion-rate",
+      "term": "Sales Conversion Rate",
+      "definition": "The percentage of leads or prospects that complete a desired action, such as making a purchase, calculated by dividing the number of conversions by the total number of leads and multiplying by 100.",
+      "translations": {
+        "fr": {
+          "slug": "taux-conversion-ventes",
+          "term": "Taux de Conversion des Ventes",
+          "definition": "Le pourcentage de prospects qui effectuent une action souhaitée, comme effectuer un achat, calculé en divisant le nombre de conversions par le nombre total de prospects et en multipliant par 100."
+        },
+        "zh": {
+          "slug": "xiaoshou-zhuanhua-lv",
+          "term": "销售转化率",
+          "definition": "完成所需操作（如购买）的潜在客户或潜在客户的百分比，通过将转化数量除以潜在客户总数并乘以100来计算。"
+        },
+        "es": {
+          "slug": "tasa-conversion-ventas",
+          "term": "Tasa de Conversión de Ventas",
+          "definition": "El porcentaje de clientes potenciales o prospectos que completan una acción deseada, como realizar una compra, calculado dividiendo el número de conversiones por el número total de clientes potenciales y multiplicando por 100."
+        },
+        "de": {
+          "slug": "verkaufskonversionsrate",
+          "term": "Verkaufskonversionsrate",
+          "definition": "Der Prozentsatz der Leads oder Interessenten, die eine gewünschte Aktion ausführen, wie z.B. einen Kauf tätigen, berechnet durch Division der Anzahl der Konversionen durch die Gesamtzahl der Leads und Multiplikation mit 100."
+        },
+        "ar": {
+          "slug": "muadal-tahwil-almabieaat",
+          "term": "معدل تحويل المبيعات",
+          "definition": "النسبة المئوية للعملاء المحتملين أو المحتملين الذين يكملون إجراءً مرغوبًا، مثل إجراء عملية شراء، يُحسب بقسمة عدد التحويلات على إجمالي عدد العملاء المحتملين والضرب في 100."
+        },
+        "hi": {
+          "slug": "bikri-rupantaran-dar",
+          "term": "बिक्री रूपांतरण दर",
+          "definition": "लीड या संभावनाओं का प्रतिशत जो एक वांछित क्रिया पूरी करते हैं, जैसे कि खरीदारी करना, रूपांतरणों की संख्या को कुल लीड की संख्या से विभाजित करके और 100 से गुणा करके गणना की जाती है।"
+        },
+        "pt": {
+          "slug": "taxa-conversao-vendas",
+          "term": "Taxa de Conversão de Vendas",
+          "definition": "A porcentagem de leads ou prospects que completam uma ação desejada, como fazer uma compra, calculada dividindo o número de conversões pelo número total de leads e multiplicando por 100."
+        },
+        "ru": {
+          "slug": "koeffitsient-konversii-prodazh",
+          "term": "Коэффициент Конверсии Продаж",
+          "definition": "Процент лидов или потенциальных клиентов, которые совершают желаемое действие, например покупку, рассчитывается путем деления количества конверсий на общее количество лидов и умножения на 100."
+        }
+      }
+    },
+    {
+      "id": "lead-qualification",
+      "term": "Lead Qualification",
+      "definition": "The process of evaluating and categorizing leads based on their likelihood to convert, using criteria such as budget, authority, need, and timeline to prioritize sales efforts on the most promising prospects.",
+      "translations": {
+        "fr": {
+          "slug": "qualification-prospects",
+          "term": "Qualification des Prospects",
+          "definition": "Le processus d'évaluation et de catégorisation des prospects en fonction de leur probabilité de conversion, en utilisant des critères tels que le budget, l'autorité, le besoin et le calendrier pour prioriser les efforts de vente sur les prospects les plus prometteurs."
+        },
+        "zh": {
+          "slug": "qianzaikehu-zige-shencha",
+          "term": "潜在客户资格审查",
+          "definition": "根据预算、权限、需求和时间表等标准评估和分类潜在客户的转化可能性的过程，以便将销售工作集中在最有希望的潜在客户身上。"
+        },
+        "es": {
+          "slug": "calificacion-prospectos",
+          "term": "Calificación de Prospectos",
+          "definition": "El proceso de evaluar y categorizar clientes potenciales según su probabilidad de conversión, utilizando criterios como presupuesto, autoridad, necesidad y cronograma para priorizar los esfuerzos de ventas en los prospectos más prometedores."
+        },
+        "de": {
+          "slug": "lead-qualifizierung",
+          "term": "Lead-Qualifizierung",
+          "definition": "Der Prozess der Bewertung und Kategorisierung von Leads basierend auf ihrer Konversionswahrscheinlichkeit, unter Verwendung von Kriterien wie Budget, Autorität, Bedarf und Zeitplan, um Vertriebsanstrengungen auf die vielversprechendsten Interessenten zu priorisieren."
+        },
+        "ar": {
+          "slug": "tahil-alumala-almuhtaleen",
+          "term": "تأهيل العملاء المحتملين",
+          "definition": "عملية تقييم وتصنيف العملاء المحتملين بناءً على احتمالية تحويلهم، باستخدام معايير مثل الميزانية والسلطة والحاجة والجدول الزمني لإعطاء الأولوية لجهود المبيعات على العملاء المحتملين الأكثر وعدًا."
+        },
+        "hi": {
+          "slug": "lead-योग्यता-निर्धारण",
+          "term": "लीड योग्यता निर्धारण",
+          "definition": "बजट, प्राधिकार, आवश्यकता और समयरेखा जैसे मानदंडों का उपयोग करके लीड को उनके रूपांतरण की संभावना के आधार पर मूल्यांकन और वर्गीकृत करने की प्रक्रिया, सबसे आशाजनक संभावनाओं पर बिक्री प्रयासों को प्राथमिकता देने के लिए।"
+        },
+        "pt": {
+          "slug": "qualificacao-leads",
+          "term": "Qualificação de Leads",
+          "definition": "O processo de avaliar e categorizar leads com base em sua probabilidade de converter, usando critérios como orçamento, autoridade, necessidade e cronograma para priorizar esforços de vendas nos prospects mais promissores."
+        },
+        "ru": {
+          "slug": "kvalifikatsiya-lidov",
+          "term": "Квалификация Лидов",
+          "definition": "Процесс оценки и категоризации лидов на основе их вероятности конверсии с использованием таких критериев, как бюджет, полномочия, потребность и сроки, для приоритизации усилий по продажам на наиболее перспективных потенциальных клиентов."
+        }
+      }
+    },
+    {
+      "id": "automated-review-requests",
+      "term": "Automated Review Requests",
+      "definition": "Systematic, technology-driven process of soliciting customer feedback and online reviews following a purchase or service interaction, using automated emails or SMS to improve review volume and ratings.",
+      "translations": {
+        "fr": {
+          "slug": "demandes-avis-automatisees",
+          "term": "Demandes d'Avis Automatisées",
+          "definition": "Processus systématique et technologique de sollicitation de commentaires clients et d'avis en ligne après un achat ou une interaction de service, utilisant des e-mails ou SMS automatisés pour améliorer le volume et les notes des avis."
+        },
+        "zh": {
+          "slug": "zidong-pingjia-qingqiu",
+          "term": "自动评价请求",
+          "definition": "在购买或服务互动后征求客户反馈和在线评论的系统性、技术驱动流程，使用自动电子邮件或短信来提高评论数量和评分。"
+        },
+        "es": {
+          "slug": "solicitudes-resenas-automatizadas",
+          "term": "Solicitudes de Reseñas Automatizadas",
+          "definition": "Proceso sistemático impulsado por tecnología de solicitar comentarios de clientes y reseñas en línea después de una compra o interacción de servicio, utilizando correos electrónicos o SMS automatizados para mejorar el volumen y las calificaciones de reseñas."
+        },
+        "de": {
+          "slug": "automatisierte-bewertungsanfragen",
+          "term": "Automatisierte Bewertungsanfragen",
+          "definition": "Systematischer, technologiegetriebener Prozess zur Einholung von Kundenfeedback und Online-Bewertungen nach einem Kauf oder einer Serviceinteraktion, unter Verwendung automatisierter E-Mails oder SMS zur Verbesserung des Bewertungsvolumens und der Bewertungen."
+        },
+        "ar": {
+          "slug": "talabat-almurajiaat-alaaliya",
+          "term": "طلبات المراجعات الآلية",
+          "definition": "عملية منهجية مدفوعة بالتكنولوجيا لطلب تعليقات العملاء والمراجعات عبر الإنترنت بعد عملية شراء أو تفاعل خدمة، باستخدام رسائل البريد الإلكتروني أو الرسائل القصيرة الآلية لتحسين حجم المراجعات والتقييمات."
+        },
+        "hi": {
+          "slug": "स्वचालित-समीक्षा-अनुरोध",
+          "term": "स्वचालित समीक्षा अनुरोध",
+          "definition": "खरीद या सेवा इंटरैक्शन के बाद ग्राहक प्रतिक्रिया और ऑनलाइन समीक्षा मांगने की व्यवस्थित, प्रौद्योगिकी-संचालित प्रक्रिया, समीक्षा मात्रा और रेटिंग में सुधार के लिए स्वचालित ईमेल या एसएमएस का उपयोग करना।"
+        },
+        "pt": {
+          "slug": "solicitacoes-avaliacoes-automatizadas",
+          "term": "Solicitações de Avaliações Automatizadas",
+          "definition": "Processo sistemático e orientado por tecnologia de solicitar feedback de clientes e avaliações online após uma compra ou interação de serviço, usando e-mails ou SMS automatizados para melhorar o volume e as classificações de avaliações."
+        },
+        "ru": {
+          "slug": "avtomatizirovannye-zaprosy-otzyvov",
+          "term": "Автоматизированные Запросы Отзывов",
+          "definition": "Систематический технологический процесс запроса отзывов клиентов и онлайн-обзоров после покупки или сервисного взаимодействия с использованием автоматизированных электронных писем или SMS для увеличения объема и рейтингов отзывов."
+        }
+      }
+    },
+    {
+      "id": "multi-channel-lead-capture",
+      "term": "Multi-Channel Lead Capture",
+      "definition": "The ability to collect and consolidate leads from various sources including website forms, phone calls, social media, email, chat, and third-party platforms into a unified system for efficient management.",
+      "translations": {
+        "fr": {
+          "slug": "capture-prospects-multicanal",
+          "term": "Capture de Prospects Multicanal",
+          "definition": "La capacité de collecter et de consolider des prospects provenant de diverses sources, y compris les formulaires de site Web, les appels téléphoniques, les médias sociaux, les e-mails, le chat et les plateformes tierces dans un système unifié pour une gestion efficace."
+        },
+        "zh": {
+          "slug": "duoqudao-qianzaikehu-huoqu",
+          "term": "多渠道潜在客户获取",
+          "definition": "从各种来源（包括网站表单、电话、社交媒体、电子邮件、聊天和第三方平台）收集和整合潜在客户到统一系统中以实现高效管理的能力。"
+        },
+        "es": {
+          "slug": "captura-prospectos-multicanal",
+          "term": "Captura de Prospectos Multicanal",
+          "definition": "La capacidad de recopilar y consolidar clientes potenciales de diversas fuentes, incluyendo formularios de sitios web, llamadas telefónicas, redes sociales, correo electrónico, chat y plataformas de terceros en un sistema unificado para una gestión eficiente."
+        },
+        "de": {
+          "slug": "mehrkanalige-lead-erfassung",
+          "term": "Mehrkanalige Lead-Erfassung",
+          "definition": "Die Fähigkeit, Leads aus verschiedenen Quellen wie Website-Formularen, Telefonanrufen, sozialen Medien, E-Mails, Chat und Drittanbieterplattformen zu sammeln und in einem einheitlichen System für effizientes Management zu konsolidieren."
+        },
+        "ar": {
+          "slug": "iltiqaat-alumala-mutaadid-alqanawat",
+          "term": "التقاط العملاء متعدد القنوات",
+          "definition": "القدرة على جمع ودمج العملاء المحتملين من مصادر مختلفة بما في ذلك نماذج الويب والمكالمات الهاتفية ووسائل التواصل الاجتماعي والبريد الإلكتروني والمحادثة ومنصات الطرف الثالث في نظام موحد لإدارة فعالة."
+        },
+        "hi": {
+          "slug": "बहु-चैनल-लीड-कैप्चर",
+          "term": "बहु-चैनल लीड कैप्चर",
+          "definition": "वेबसाइट फॉर्म, फोन कॉल, सोशल मीडिया, ईमेल, चैट और तृतीय-पक्ष प्लेटफॉर्म सहित विभिन्न स्रोतों से लीड एकत्र करने और समेकित करने की क्षमता, कुशल प्रबंधन के लिए एक एकीकृत प्रणाली में।"
+        },
+        "pt": {
+          "slug": "captura-leads-multicanal",
+          "term": "Captura de Leads Multicanal",
+          "definition": "A capacidade de coletar e consolidar leads de várias fontes, incluindo formulários de sites, chamadas telefônicas, mídias sociais, e-mail, chat e plataformas de terceiros em um sistema unificado para gerenciamento eficiente."
+        },
+        "ru": {
+          "slug": "mnogokanalnyi-sbor-lidov",
+          "term": "Многоканальный Сбор Лидов",
+          "definition": "Способность собирать и консолидировать лиды из различных источников, включая веб-формы, телефонные звонки, социальные сети, электронную почту, чат и сторонние платформы в единую систему для эффективного управления."
+        }
+      }
+    },
+    {
+      "id": "dealership-workflow",
+      "term": "Dealership Workflow",
+      "definition": "The structured sequence of processes and tasks within an automotive dealership that guide leads and customers through sales, service, and administrative operations from initial contact to post-sale follow-up.",
+      "translations": {
+        "fr": {
+          "slug": "flux-travail-concessionnaire",
+          "term": "Flux de Travail de Concessionnaire",
+          "definition": "La séquence structurée de processus et de tâches au sein d'une concession automobile qui guide les prospects et les clients à travers les ventes, le service et les opérations administratives du contact initial au suivi post-vente."
+        },
+        "zh": {
+          "slug": "jingxiaoshang-gongzuoliu",
+          "term": "经销商工作流程",
+          "definition": "汽车经销商内部的结构化流程和任务序列，引导潜在客户和客户从初次接触到售后跟进的销售、服务和管理运营。"
+        },
+        "es": {
+          "slug": "flujo-trabajo-concesionario",
+          "term": "Flujo de Trabajo del Concesionario",
+          "definition": "La secuencia estructurada de procesos y tareas dentro de un concesionario automotriz que guía a los clientes potenciales y clientes a través de operaciones de ventas, servicio y administrativas desde el contacto inicial hasta el seguimiento posventa."
+        },
+        "de": {
+          "slug": "autohaus-workflow",
+          "term": "Autohaus-Workflow",
+          "definition": "Die strukturierte Abfolge von Prozessen und Aufgaben innerhalb eines Autohauses, die Leads und Kunden durch Verkaufs-, Service- und Verwaltungsvorgänge vom ersten Kontakt bis zur Nachverfolgung nach dem Verkauf führt."
+        },
+        "ar": {
+          "slug": "sair-aamal-alwakala",
+          "term": "سير عمل الوكالة",
+          "definition": "التسلسل المنظم للعمليات والمهام داخل وكالة السيارات التي توجه العملاء المحتملين والعملاء من خلال عمليات المبيعات والخدمة والإدارة من الاتصال الأولي إلى المتابعة بعد البيع."
+        },
+        "hi": {
+          "slug": "डीलरशिप-कार्यप्रवाह",
+          "term": "डीलरशिप कार्यप्रवाह",
+          "definition": "ऑटोमोटिव डीलरशिप के भीतर प्रक्रियाओं और कार्यों का संरचित क्रम जो प्रारंभिक संपर्क से बिक्री के बाद के फॉलो-अप तक लीड और ग्राहकों को बिक्री, सेवा और प्रशासनिक संचालन के माध्यम से मार्गदर्शन करता है।"
+        },
+        "pt": {
+          "slug": "fluxo-trabalho-concessionaria",
+          "term": "Fluxo de Trabalho da Concessionária",
+          "definition": "A sequência estruturada de processos e tarefas dentro de uma concessionária automotiva que orienta leads e clientes através de operações de vendas, serviço e administrativas desde o contato inicial até o acompanhamento pós-venda."
+        },
+        "ru": {
+          "slug": "rabochiy-protsess-dilerstva",
+          "term": "Рабочий Процесс Дилерства",
+          "definition": "Структурированная последовательность процессов и задач в автомобильном дилерском центре, которая направляет лиды и клиентов через операции продаж, обслуживания и администрирования от первоначального контакта до последующих действий после продажи."
+        }
+      }
+    },
+    {
+      "id": "customer-engagement",
+      "term": "Customer Engagement",
+      "definition": "The ongoing interactions and touchpoints between a business and its customers across various channels, aimed at building relationships, fostering loyalty, and driving repeat business through personalized communication.",
+      "translations": {
+        "fr": {
+          "slug": "engagement-client",
+          "term": "Engagement Client",
+          "definition": "Les interactions et points de contact continus entre une entreprise et ses clients à travers divers canaux, visant à établir des relations, favoriser la fidélité et stimuler les affaires répétées par une communication personnalisée."
+        },
+        "zh": {
+          "slug": "kehucanyudegree",
+          "term": "客户参与度",
+          "definition": "企业与客户之间通过各种渠道进行的持续互动和接触点，旨在通过个性化沟通建立关系、培养忠诚度并推动重复业务。"
+        },
+        "es": {
+          "slug": "compromiso-cliente",
+          "term": "Compromiso del Cliente",
+          "definition": "Las interacciones y puntos de contacto continuos entre una empresa y sus clientes a través de varios canales, destinados a construir relaciones, fomentar la lealtad e impulsar negocios repetidos mediante comunicación personalizada."
+        },
+        "de": {
+          "slug": "kundenbindung",
+          "term": "Kundenbindung",
+          "definition": "Die laufenden Interaktionen und Berührungspunkte zwischen einem Unternehmen und seinen Kunden über verschiedene Kanäle hinweg, die darauf abzielen, Beziehungen aufzubauen, Loyalität zu fördern und Wiederholungsgeschäfte durch personalisierte Kommunikation zu fördern."
+        },
+        "ar": {
+          "slug": "mushaarakat-alumala",
+          "term": "مشاركة العملاء",
+          "definition": "التفاعلات ونقاط الاتصال المستمرة بين الشركة وعملائها عبر قنوات مختلفة، بهدف بناء العلاقات وتعزيز الولاء ودفع الأعمال المتكررة من خلال التواصل الشخصي."
+        },
+        "hi": {
+          "slug": "ग्राहक-जुड़ाव",
+          "term": "ग्राहक जुड़ाव",
+          "definition": "विभिन्न चैनलों के माध्यम से व्यवसाय और उसके ग्राहकों के बीच चल रहे इंटरैक्शन और टचपॉइंट, जो व्यक्तिगत संचार के माध्यम से संबंध बनाने, वफादारी को बढ़ावा देने और बार-बार व्यापार को बढ़ावा देने का लक्ष्य रखते हैं।"
+        },
+        "pt": {
+          "slug": "engajamento-cliente",
+          "term": "Engajamento do Cliente",
+          "definition": "As interações e pontos de contato contínuos entre uma empresa e seus clientes em vários canais, destinados a construir relacionamentos, promover lealdade e impulsionar negócios repetidos por meio de comunicação personalizada."
+        },
+        "ru": {
+          "slug": "vovlechennost-klientov",
+          "term": "Вовлеченность Клиентов",
+          "definition": "Постоянные взаимодействия и точки контакта между бизнесом и его клиентами через различные каналы, направленные на построение отношений, развитие лояльности и стимулирование повторных продаж посредством персонализированной коммуникации."
+        }
+      }
+    },
+    {
+      "id": "lead-response-time",
+      "term": "Lead Response Time",
+      "definition": "The elapsed time between when a lead is received and when the first contact attempt is made by the sales team, a critical metric that significantly impacts conversion probability and customer experience.",
+      "translations": {
+        "fr": {
+          "slug": "temps-reponse-prospect",
+          "term": "Temps de Réponse aux Prospects",
+          "definition": "Le temps écoulé entre la réception d'un prospect et la première tentative de contact par l'équipe de vente, une mesure critique qui impacte significativement la probabilité de conversion et l'expérience client."
+        },
+        "zh": {
+          "slug": "qianzaikehu-xiangying-shijian",
+          "term": "潜在客户响应时间",
+          "definition": "从收到潜在客户到销售团队首次尝试联系之间的经过时间，这是显著影响转化概率和客户体验的关键指标。"
+        },
+        "es": {
+          "slug": "tiempo-respuesta-prospectos",
+          "term": "Tiempo de Respuesta a Prospectos",
+          "definition": "El tiempo transcurrido entre cuando se recibe un cliente potencial y cuando el equipo de ventas realiza el primer intento de contacto, una métrica crítica que impacta significativamente la probabilidad de conversión y la experiencia del cliente."
+        },
+        "de": {
+          "slug": "lead-reaktionszeit",
+          "term": "Lead-Reaktionszeit",
+          "definition": "Die verstrichene Zeit zwischen dem Empfang eines Leads und dem ersten Kontaktversuch durch das Vertriebsteam, eine kritische Kennzahl, die die Konversionswahrscheinlichkeit und das Kundenerlebnis erheblich beeinflusst."
+        },
+        "ar": {
+          "slug": "waqt-alistijaba-lilaumala",
+          "term": "وقت الاستجابة للعملاء",
+          "definition": "الوقت المنقضي بين استلام العميل المحتمل وعندما يقوم فريق المبيعات بأول محاولة اتصال، وهو مقياس حاسم يؤثر بشكل كبير على احتمالية التحويل وتجربة العملاء."
+        },
+        "hi": {
+          "slug": "lead-pratikriya-samay",
+          "term": "लीड प्रतिक्रिया समय",
+          "definition": "लीड प्राप्त होने और बिक्री टीम द्वारा पहली संपर्क प्रयास करने के बीच बीता हुआ समय, एक महत्वपूर्ण मीट्रिक जो रूपांतरण संभावना और ग्राहक अनुभव को महत्वपूर्ण रूप से प्रभावित करता है।"
+        },
+        "pt": {
+          "slug": "tempo-resposta-leads",
+          "term": "Tempo de Resposta a Leads",
+          "definition": "O tempo decorrido entre quando um lead é recebido e quando a primeira tentativa de contato é feita pela equipe de vendas, uma métrica crítica que impacta significativamente a probabilidade de conversão e a experiência do cliente."
+        },
+        "ru": {
+          "slug": "vremya-otveta-lidam",
+          "term": "Время Ответа Лидам",
+          "definition": "Время, прошедшее между получением лида и первой попыткой контакта со стороны отдела продаж, критически важная метрика, которая значительно влияет на вероятность конверсии и клиентский опыт."
         }
       }
     }

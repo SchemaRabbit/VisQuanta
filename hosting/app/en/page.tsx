@@ -12,7 +12,15 @@ export default function EnglishHomePage() {
               href={`/${lang}`}
               className="text-orange-500 hover:text-orange-400 transition-colors"
             >
-              {lang === 'fr' ? 'Français' : lang === 'zh' ? '中文' : lang.toUpperCase()}
+              {lang === 'fr' ? 'Français' :
+               lang === 'zh' ? '中文' :
+               lang === 'es' ? 'Español' :
+               lang === 'de' ? 'Deutsch' :
+               lang === 'ar' ? 'العربية' :
+               lang === 'hi' ? 'हिन्दी' :
+               lang === 'pt' ? 'Português' :
+               lang === 'ru' ? 'Русский' :
+               lang.toUpperCase()}
             </Link>
           ))}
         </div>

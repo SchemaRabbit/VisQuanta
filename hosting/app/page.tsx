@@ -16,6 +16,12 @@ export default function Page() {
             const langNames: Record<string, string> = {
               fr: 'Français',
               zh: '中文',
+              es: 'Español',
+              de: 'Deutsch',
+              ar: 'العربية',
+              hi: 'हिन्दी',
+              pt: 'Português',
+              ru: 'Русский',
             };
             return (
               <Link

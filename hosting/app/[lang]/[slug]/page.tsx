@@ -5,6 +5,12 @@ import glossaryData from '../../../data/glossary.json';
 const languageConfig: Record<string, { backText: string; nextText: string; visitText: string }> = {
   fr: { backText: '← Retour au Glossaire', nextText: 'Suivant', visitText: 'Visiter' },
   zh: { backText: '← 返回词汇表', nextText: '下一个', visitText: '访问' },
+  es: { backText: '← Volver al Glosario', nextText: 'Siguiente', visitText: 'Visitar' },
+  de: { backText: '← Zurück zum Glossar', nextText: 'Weiter', visitText: 'Besuchen' },
+  ar: { backText: '← العودة إلى المسرد', nextText: 'التالي', visitText: 'زيارة' },
+  hi: { backText: '← शब्दावली पर वापस जाएं', nextText: 'अगला', visitText: 'यात्रा' },
+  pt: { backText: '← Voltar ao Glossário', nextText: 'Próximo', visitText: 'Visitar' },
+  ru: { backText: '← Назад к Глоссарию', nextText: 'Следующий', visitText: 'Посетить' },
 };
 
 const defaultLangConfig = { backText: '← Back to Glossary', nextText: 'Next', visitText: 'Visit' };
@@ -57,7 +63,15 @@ export default function TranslatedGlossaryTermPage({
                 href={`/${lang}/${translation.slug}`}
                 className="text-orange-500 hover:text-orange-400 transition-colors"
               >
-                {lang === 'fr' ? 'Français' : lang === 'zh' ? '中文' : lang.toUpperCase()}
+                {lang === 'fr' ? 'Français' :
+                 lang === 'zh' ? '中文' :
+                 lang === 'es' ? 'Español' :
+                 lang === 'de' ? 'Deutsch' :
+                 lang === 'ar' ? 'العربية' :
+                 lang === 'hi' ? 'हिन्दी' :
+                 lang === 'pt' ? 'Português' :
+                 lang === 'ru' ? 'Русский' :
+                 lang.toUpperCase()}
               </Link>
             ))}
         </div>
