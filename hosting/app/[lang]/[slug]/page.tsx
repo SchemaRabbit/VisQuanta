@@ -51,7 +51,7 @@ export default async function TranslatedGlossaryTermPage({
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="flex justify-end gap-4 mb-4">
+        <div className="flex flex-wrap justify-center md:justify-end gap-3 md:gap-4 mb-6 text-sm md:text-base">
           <Link
             href={`/en/${term.id}`}
             className="text-orange-500 hover:text-orange-400 transition-colors"

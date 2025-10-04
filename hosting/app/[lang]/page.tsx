@@ -2,15 +2,15 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import glossaryData from '../../data/glossary.json';
 
-const languageConfig: Record<string, { title: string; visitText: string }> = {
-  fr: { title: 'Glossaire', visitText: 'Visiter' },
-  zh: { title: '词汇表', visitText: '访问' },
-  es: { title: 'Glosario', visitText: 'Visitar' },
-  de: { title: 'Glossar', visitText: 'Besuchen' },
-  ar: { title: 'المسرد', visitText: 'زيارة' },
-  hi: { title: 'शब्दावली', visitText: 'यात्रा' },
-  pt: { title: 'Glossário', visitText: 'Visitar' },
-  ru: { title: 'Глоссарий', visitText: 'Посетить' },
+const languageConfig: Record<string, { title: string; visitText: string; githubText: string }> = {
+  fr: { title: 'Glossaire', visitText: 'Visiter', githubText: 'Voir GitHub' },
+  zh: { title: '词汇表', visitText: '访问', githubText: '查看 GitHub' },
+  es: { title: 'Glosario', visitText: 'Visitar', githubText: 'Ver GitHub' },
+  de: { title: 'Glossar', visitText: 'Besuchen', githubText: 'GitHub anzeigen' },
+  ar: { title: 'المسرد', visitText: 'زيارة', githubText: 'عرض GitHub' },
+  hi: { title: 'शब्दावली', visitText: 'यात्रा', githubText: 'GitHub देखें' },
+  pt: { title: 'Glossário', visitText: 'Visitar', githubText: 'Ver GitHub' },
+  ru: { title: 'Глоссарий', visitText: 'Посетить', githubText: 'Посмотреть GitHub' },
 };
 
 export async function generateStaticParams() {
@@ -28,12 +28,12 @@ export default async function TranslatedHomePage({ params }: { params: Promise<{
     notFound();
   }
 
-  const langConfig = languageConfig[lang] || { title: 'Glossary', visitText: 'Visit' };
+  const langConfig = languageConfig[lang] || { title: 'Glossary', visitText: 'Visit', githubText: 'View GitHub' };
 
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="flex justify-end gap-4 mb-4">
+        <div className="flex flex-wrap justify-center md:justify-end gap-3 md:gap-4 mb-6 text-sm md:text-base">
           <Link
             href="/en"
             className="text-orange-500 hover:text-orange-400 transition-colors"
@@ -68,14 +68,24 @@ export default async function TranslatedHomePage({ params }: { params: Promise<{
           <p className="text-gray-300 text-lg mb-6">
             {siteTranslation.description}
           </p>
-          <a
-            href={glossaryData.site.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors"
-          >
-            {langConfig.visitText} {glossaryData.site.name}
-          </a>
+          <div className="flex flex-wrap gap-4">
+            <a
+              href={glossaryData.site.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors"
+            >
+              {langConfig.visitText} {glossaryData.site.name}
+            </a>
+            <a
+              href="https://github.com/SchemaRabbit/VisQuanta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors border border-gray-700"
+            >
+              {langConfig.githubText}
+            </a>
+          </div>
         </header>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -95,6 +105,20 @@ export default async function TranslatedHomePage({ params }: { params: Promise<{
             );
           })}
         </div>
+
+        <footer className="mt-16 flex justify-center text-gray-500 text-sm">
+          <span>
+            Powered by{' '}
+            <a
+              href="https://schemarabbit.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-500 hover:text-orange-400"
+            >
+              SchemaRabbit
+            </a>
+          </span>
+        </footer>
       </div>
     </div>
   );
