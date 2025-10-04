@@ -21,8 +21,7 @@ VisQuanta Glossary is a multilingual reference site that explains key concepts b
 1. Install Node.js 18 or newer.
 2. Change into the Next.js app directory: `cd hosting`.
 3. Install dependencies: `npm install`.
-4. (Optional but recommended) Create `.env.local` in `hosting/` and set `NEXT_PUBLIC_BASE_URL` to the public URL you plan to deploy to. This value powers sitemap generation.
-5. Start the development server: `npm run dev` (uses Turbopack).
+4. Start the development server: `npm run dev` (uses Turbopack).
 
 When developing locally, visit the printed URL (defaults to `http://localhost:3000`).
 
@@ -34,7 +33,7 @@ When developing locally, visit the printed URL (defaults to `http://localhost:30
 ## Managing Glossary Content
 - Edit `hosting/data/glossary.json` to add, update, or remove entries. Each term contains an English definition plus localized metadata under `translations`.
 - Use `hosting/add_translations.py` to append translation blocks when expanding into new languages. The script expects to run from the `hosting` directory.
-- After updating glossary content, rebuild (`npm run build`) so translated pages and the sitemap pick up the changes.
+- After updating glossary content, rebuild (`npm run build`) so translated pages pick up the changes.
 
 ## Deployment
 The project is configured for Firebase Hosting. To deploy:
