@@ -1,0 +1,59 @@
+{
+  "site": {
+    "name": "VisQuanta",
+    "url": "https://visquanta.com",
+    "description": "AI-powered automotive dealership solutions that optimize lead management, automate workflows, and drive revenue recovery through intelligent CRM integration and performance analytics."
+  },
+  "terms": [
+    {
+      "id": "crm-integration",
+      "term": "CRM Integration",
+      "definition": "The process of connecting Customer Relationship Management systems with other business applications to synchronize customer data, automate workflows, and provide a unified view of customer interactions."
+    },
+  {
+    "id": "workflow-automation",
+    "term": "Workflow Automation",
+    "definition": "The use of technology to automate complex business processes and functions, reducing manual tasks and improving efficiency through rule-based logic and AI-powered decision making."
+  },
+  {
+    "id": "lead-scoring",
+    "term": "Lead Scoring",
+    "definition": "A methodology used to rank prospects against a scale representing the perceived value each lead represents to the organization, helping prioritize sales efforts and improve conversion rates."
+  },
+  {
+    "id": "conversion-tracking",
+    "term": "Conversion Tracking",
+    "definition": "The process of monitoring and measuring customer actions that result in desired outcomes, such as purchases or sign-ups, to evaluate marketing effectiveness and ROI."
+  },
+  {
+    "id": "data-synchronization",
+    "term": "Data Synchronization",
+    "definition": "The process of establishing consistency between data from different sources and maintaining this consistency over time, ensuring all systems reflect the same up-to-date information."
+  },
+  {
+    "id": "ai-powered-analytics",
+    "term": "AI-Powered Analytics",
+    "definition": "Advanced analytical techniques that leverage artificial intelligence and machine learning to automatically discover insights, predict outcomes, and recommend actions from large datasets."
+  },
+  {
+    "id": "performance-metrics",
+    "term": "Performance Metrics",
+    "definition": "Quantifiable measures used to track and assess the status of specific business processes, helping organizations evaluate their success in achieving key objectives."
+  },
+  {
+    "id": "multi-rooftop-scalability",
+    "term": "Multi-Rooftop Scalability",
+    "definition": "The ability of a system to efficiently manage and scale operations across multiple business locations or dealerships, maintaining consistent performance and data integrity."
+  },
+  {
+    "id": "revenue-recovery",
+    "term": "Revenue Recovery",
+    "definition": "Strategic processes and technologies designed to recapture lost sales opportunities and prevent revenue leakage through better lead management and customer engagement."
+  },
+    {
+      "id": "lead-ecosystem",
+      "term": "Lead Ecosystem",
+      "definition": "A comprehensive network of interconnected systems, processes, and touchpoints that manage the entire lifecycle of leads from initial contact through conversion and retention."
+    }
+  ]
+}
