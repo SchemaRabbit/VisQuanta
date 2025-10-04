@@ -18,14 +18,17 @@ export async function generateStaticParams() {
   return languages.map((lang) => ({ lang }));
 }
 
-export default function TranslatedHomePage({ params }: { params: { lang: string } }) {
-  const siteTranslation = glossaryData.site.translations[params.lang];
+export const dynamicParams = false;
+
+export default async function TranslatedHomePage({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const siteTranslation = glossaryData.site.translations[lang];
 
   if (!siteTranslation) {
     notFound();
   }
 
-  const langConfig = languageConfig[params.lang] || { title: 'Glossary', visitText: 'Visit' };
+  const langConfig = languageConfig[lang] || { title: 'Glossary', visitText: 'Visit' };
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -38,22 +41,22 @@ export default function TranslatedHomePage({ params }: { params: { lang: string 
             English
           </Link>
           {Object.keys(glossaryData.site.translations)
-            .filter((lang) => lang !== params.lang)
-            .map((lang) => (
+            .filter((code) => code !== lang)
+            .map((code) => (
               <Link
-                key={lang}
-                href={`/${lang}`}
+                key={code}
+                href={`/${code}`}
                 className="text-orange-500 hover:text-orange-400 transition-colors"
               >
-                {lang === 'fr' ? 'Français' :
-                 lang === 'zh' ? '中文' :
-                 lang === 'es' ? 'Español' :
-                 lang === 'de' ? 'Deutsch' :
-                 lang === 'ar' ? 'العربية' :
-                 lang === 'hi' ? 'हिन्दी' :
-                 lang === 'pt' ? 'Português' :
-                 lang === 'ru' ? 'Русский' :
-                 lang.toUpperCase()}
+                {code === 'fr' ? 'Français' :
+                 code === 'zh' ? '中文' :
+                 code === 'es' ? 'Español' :
+                 code === 'de' ? 'Deutsch' :
+                 code === 'ar' ? 'العربية' :
+                 code === 'hi' ? 'हिन्दी' :
+                 code === 'pt' ? 'Português' :
+                 code === 'ru' ? 'Русский' :
+                 code.toUpperCase()}
               </Link>
             ))}
         </div>
@@ -77,11 +80,11 @@ export default function TranslatedHomePage({ params }: { params: { lang: string 
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {glossaryData.terms.map((item) => {
-            const termTranslation = item.translations[params.lang];
+            const termTranslation = item.translations[lang];
             return (
               <Link
                 key={item.id}
-                href={`/${params.lang}/${termTranslation.slug}`}
+                href={`/${lang}/${termTranslation.slug}`}
                 className="block p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-orange-500 transition-colors"
               >
                 <h2 className="text-2xl font-semibold text-orange-500 mb-3">

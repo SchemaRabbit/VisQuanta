@@ -8,8 +8,11 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function EnglishGlossaryTermPage({ params }: { params: { slug: string } }) {
-  const currentIndex = glossaryData.terms.findIndex((item) => item.id === params.slug);
+export const dynamicParams = false;
+
+export default async function EnglishGlossaryTermPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const currentIndex = glossaryData.terms.findIndex((item) => item.id === slug);
 
   if (currentIndex === -1) {
     notFound();
@@ -71,7 +74,7 @@ export default function EnglishGlossaryTermPage({ params }: { params: { slug: st
               Visit {glossaryData.site.name}
             </a>
             <Link
-              href={`/en/${nextTerm.id}`}
+            href={`/en/${nextTerm.id}`}
               className="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors border border-gray-700"
             >
               Next: {nextTerm.term} →

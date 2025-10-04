@@ -27,23 +27,26 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function TranslatedGlossaryTermPage({
+export const dynamicParams = false;
+
+export default async function TranslatedGlossaryTermPage({
   params
 }: {
-  params: { lang: string; slug: string }
+  params: Promise<{ lang: string; slug: string }>
 }) {
+  const { lang, slug } = await params;
   const currentIndex = glossaryData.terms.findIndex(
-    (item) => item.translations[params.lang]?.slug === params.slug
+    (item) => item.translations[lang]?.slug === slug
   );
 
-  if (currentIndex === -1 || !glossaryData.terms[currentIndex].translations[params.lang]) {
+  if (currentIndex === -1 || !glossaryData.terms[currentIndex].translations[lang]) {
     notFound();
   }
 
   const term = glossaryData.terms[currentIndex];
-  const translation = term.translations[params.lang];
+  const translation = term.translations[lang];
   const nextTerm = glossaryData.terms[(currentIndex + 1) % glossaryData.terms.length];
-  const langConfig = languageConfig[params.lang] || defaultLangConfig;
+  const langConfig = languageConfig[lang] || defaultLangConfig;
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -56,29 +59,29 @@ export default function TranslatedGlossaryTermPage({
             English
           </Link>
           {Object.entries(term.translations)
-            .filter(([lang]) => lang !== params.lang)
-            .map(([lang, translation]) => (
+            .filter(([code]) => code !== lang)
+            .map(([code, translation]) => (
               <Link
-                key={lang}
-                href={`/${lang}/${translation.slug}`}
+                key={code}
+                href={`/${code}/${translation.slug}`}
                 className="text-orange-500 hover:text-orange-400 transition-colors"
               >
-                {lang === 'fr' ? 'Français' :
-                 lang === 'zh' ? '中文' :
-                 lang === 'es' ? 'Español' :
-                 lang === 'de' ? 'Deutsch' :
-                 lang === 'ar' ? 'العربية' :
-                 lang === 'hi' ? 'हिन्दी' :
-                 lang === 'pt' ? 'Português' :
-                 lang === 'ru' ? 'Русский' :
-                 lang.toUpperCase()}
+                {code === 'fr' ? 'Français' :
+                 code === 'zh' ? '中文' :
+                 code === 'es' ? 'Español' :
+                 code === 'de' ? 'Deutsch' :
+                 code === 'ar' ? 'العربية' :
+                 code === 'hi' ? 'हिन्दी' :
+                 code === 'pt' ? 'Português' :
+                 code === 'ru' ? 'Русский' :
+                 code.toUpperCase()}
               </Link>
             ))}
         </div>
 
         <div className="flex items-center gap-4 mb-8">
           <Link
-            href={`/${params.lang}`}
+            href={`/${lang}`}
             className="text-orange-500 hover:text-orange-400 transition-colors"
           >
             {langConfig.backText}
@@ -106,10 +109,10 @@ export default function TranslatedGlossaryTermPage({
               {langConfig.visitText} {glossaryData.site.name}
             </a>
             <Link
-              href={`/${params.lang}/${nextTerm.translations[params.lang].slug}`}
+              href={`/${lang}/${nextTerm.translations[lang].slug}`}
               className="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors border border-gray-700"
             >
-              {langConfig.nextText}: {nextTerm.translations[params.lang].term} →
+              {langConfig.nextText}: {nextTerm.translations[lang].term} →
             </Link>
           </div>
         </article>
