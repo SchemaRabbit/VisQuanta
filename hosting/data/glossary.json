@@ -2,58 +2,133 @@
   "site": {
     "name": "VisQuanta",
     "url": "https://visquanta.com",
-    "description": "AI-powered automotive dealership solutions that optimize lead management, automate workflows, and drive revenue recovery through intelligent CRM integration and performance analytics."
+    "description": "AI-powered automotive dealership solutions that optimize lead management, automate workflows, and drive revenue recovery through intelligent CRM integration and performance analytics.",
+    "translations": {
+      "fr": {
+        "description": "Solutions de concession automobile alimentées par l'IA qui optimisent la gestion des prospects, automatisent les flux de travail et favorisent la récupération des revenus grâce à l'intégration CRM intelligente et à l'analyse des performances."
+      }
+    }
   },
   "terms": [
     {
       "id": "crm-integration",
       "term": "CRM Integration",
-      "definition": "The process of connecting Customer Relationship Management systems with other business applications to synchronize customer data, automate workflows, and provide a unified view of customer interactions."
+      "definition": "The process of connecting Customer Relationship Management systems with other business applications to synchronize customer data, automate workflows, and provide a unified view of customer interactions.",
+      "translations": {
+        "fr": {
+          "slug": "integration-crm",
+          "term": "Intégration CRM",
+          "definition": "Le processus de connexion des systèmes de gestion de la relation client avec d'autres applications métier pour synchroniser les données clients, automatiser les flux de travail et fournir une vue unifiée des interactions clients."
+        }
+      }
     },
-  {
-    "id": "workflow-automation",
-    "term": "Workflow Automation",
-    "definition": "The use of technology to automate complex business processes and functions, reducing manual tasks and improving efficiency through rule-based logic and AI-powered decision making."
-  },
-  {
-    "id": "lead-scoring",
-    "term": "Lead Scoring",
-    "definition": "A methodology used to rank prospects against a scale representing the perceived value each lead represents to the organization, helping prioritize sales efforts and improve conversion rates."
-  },
-  {
-    "id": "conversion-tracking",
-    "term": "Conversion Tracking",
-    "definition": "The process of monitoring and measuring customer actions that result in desired outcomes, such as purchases or sign-ups, to evaluate marketing effectiveness and ROI."
-  },
-  {
-    "id": "data-synchronization",
-    "term": "Data Synchronization",
-    "definition": "The process of establishing consistency between data from different sources and maintaining this consistency over time, ensuring all systems reflect the same up-to-date information."
-  },
-  {
-    "id": "ai-powered-analytics",
-    "term": "AI-Powered Analytics",
-    "definition": "Advanced analytical techniques that leverage artificial intelligence and machine learning to automatically discover insights, predict outcomes, and recommend actions from large datasets."
-  },
-  {
-    "id": "performance-metrics",
-    "term": "Performance Metrics",
-    "definition": "Quantifiable measures used to track and assess the status of specific business processes, helping organizations evaluate their success in achieving key objectives."
-  },
-  {
-    "id": "multi-rooftop-scalability",
-    "term": "Multi-Rooftop Scalability",
-    "definition": "The ability of a system to efficiently manage and scale operations across multiple business locations or dealerships, maintaining consistent performance and data integrity."
-  },
-  {
-    "id": "revenue-recovery",
-    "term": "Revenue Recovery",
-    "definition": "Strategic processes and technologies designed to recapture lost sales opportunities and prevent revenue leakage through better lead management and customer engagement."
-  },
+    {
+      "id": "workflow-automation",
+      "term": "Workflow Automation",
+      "definition": "The use of technology to automate complex business processes and functions, reducing manual tasks and improving efficiency through rule-based logic and AI-powered decision making.",
+      "translations": {
+        "fr": {
+          "slug": "automatisation-des-flux",
+          "term": "Automatisation des Flux de Travail",
+          "definition": "L'utilisation de la technologie pour automatiser les processus et fonctions métier complexes, réduisant les tâches manuelles et améliorant l'efficacité grâce à la logique basée sur des règles et à la prise de décision alimentée par l'IA."
+        }
+      }
+    },
+    {
+      "id": "lead-scoring",
+      "term": "Lead Scoring",
+      "definition": "A methodology used to rank prospects against a scale representing the perceived value each lead represents to the organization, helping prioritize sales efforts and improve conversion rates.",
+      "translations": {
+        "fr": {
+          "slug": "notation-des-prospects",
+          "term": "Notation des Prospects",
+          "definition": "Une méthodologie utilisée pour classer les prospects selon une échelle représentant la valeur perçue que chaque prospect représente pour l'organisation, aidant à prioriser les efforts de vente et à améliorer les taux de conversion."
+        }
+      }
+    },
+    {
+      "id": "conversion-tracking",
+      "term": "Conversion Tracking",
+      "definition": "The process of monitoring and measuring customer actions that result in desired outcomes, such as purchases or sign-ups, to evaluate marketing effectiveness and ROI.",
+      "translations": {
+        "fr": {
+          "slug": "suivi-des-conversions",
+          "term": "Suivi des Conversions",
+          "definition": "Le processus de surveillance et de mesure des actions des clients qui aboutissent à des résultats souhaités, tels que des achats ou des inscriptions, pour évaluer l'efficacité marketing et le retour sur investissement."
+        }
+      }
+    },
+    {
+      "id": "data-synchronization",
+      "term": "Data Synchronization",
+      "definition": "The process of establishing consistency between data from different sources and maintaining this consistency over time, ensuring all systems reflect the same up-to-date information.",
+      "translations": {
+        "fr": {
+          "slug": "synchronisation-des-donnees",
+          "term": "Synchronisation des Données",
+          "definition": "Le processus d'établissement de la cohérence entre les données de différentes sources et de maintien de cette cohérence au fil du temps, garantissant que tous les systèmes reflètent les mêmes informations à jour."
+        }
+      }
+    },
+    {
+      "id": "ai-powered-analytics",
+      "term": "AI-Powered Analytics",
+      "definition": "Advanced analytical techniques that leverage artificial intelligence and machine learning to automatically discover insights, predict outcomes, and recommend actions from large datasets.",
+      "translations": {
+        "fr": {
+          "slug": "analytique-ia",
+          "term": "Analytique Alimentée par l'IA",
+          "definition": "Des techniques d'analyse avancées qui exploitent l'intelligence artificielle et l'apprentissage automatique pour découvrir automatiquement des insights, prédire les résultats et recommander des actions à partir de grands ensembles de données."
+        }
+      }
+    },
+    {
+      "id": "performance-metrics",
+      "term": "Performance Metrics",
+      "definition": "Quantifiable measures used to track and assess the status of specific business processes, helping organizations evaluate their success in achieving key objectives.",
+      "translations": {
+        "fr": {
+          "slug": "metriques-de-performance",
+          "term": "Métriques de Performance",
+          "definition": "Mesures quantifiables utilisées pour suivre et évaluer l'état de processus métier spécifiques, aidant les organisations à évaluer leur succès dans la réalisation d'objectifs clés."
+        }
+      }
+    },
+    {
+      "id": "multi-rooftop-scalability",
+      "term": "Multi-Rooftop Scalability",
+      "definition": "The ability of a system to efficiently manage and scale operations across multiple business locations or dealerships, maintaining consistent performance and data integrity.",
+      "translations": {
+        "fr": {
+          "slug": "evolutivite-multi-sites",
+          "term": "Évolutivité Multi-Sites",
+          "definition": "La capacité d'un système à gérer et à faire évoluer efficacement les opérations sur plusieurs emplacements commerciaux ou concessionnaires, en maintenant des performances cohérentes et l'intégrité des données."
+        }
+      }
+    },
+    {
+      "id": "revenue-recovery",
+      "term": "Revenue Recovery",
+      "definition": "Strategic processes and technologies designed to recapture lost sales opportunities and prevent revenue leakage through better lead management and customer engagement.",
+      "translations": {
+        "fr": {
+          "slug": "recuperation-des-revenus",
+          "term": "Récupération des Revenus",
+          "definition": "Processus stratégiques et technologies conçus pour récupérer les opportunités de vente perdues et prévenir les fuites de revenus grâce à une meilleure gestion des prospects et à l'engagement client."
+        }
+      }
+    },
     {
       "id": "lead-ecosystem",
       "term": "Lead Ecosystem",
-      "definition": "A comprehensive network of interconnected systems, processes, and touchpoints that manage the entire lifecycle of leads from initial contact through conversion and retention."
+      "definition": "A comprehensive network of interconnected systems, processes, and touchpoints that manage the entire lifecycle of leads from initial contact through conversion and retention.",
+      "translations": {
+        "fr": {
+          "slug": "ecosysteme-de-prospects",
+          "term": "Écosystème de Prospects",
+          "definition": "Un réseau complet de systèmes, processus et points de contact interconnectés qui gèrent l'ensemble du cycle de vie des prospects, du contact initial à la conversion et à la fidélisation."
+        }
+      }
     }
   ]
 }

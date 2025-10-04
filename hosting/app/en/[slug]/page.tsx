@@ -4,12 +4,12 @@ import glossaryData from '../../../data/glossary.json';
 
 export async function generateStaticParams() {
   return glossaryData.terms.map((item) => ({
-    id: item.id,
+    slug: item.id,
   }));
 }
 
-export default function GlossaryTermPage({ params }: { params: { id: string } }) {
-  const currentIndex = glossaryData.terms.findIndex((item) => item.id === params.id);
+export default function EnglishGlossaryTermPage({ params }: { params: { slug: string } }) {
+  const currentIndex = glossaryData.terms.findIndex((item) => item.id === params.slug);
 
   if (currentIndex === -1) {
     notFound();
@@ -21,9 +21,21 @@ export default function GlossaryTermPage({ params }: { params: { id: string } })
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="container mx-auto px-4 py-12">
+        <div className="flex justify-end gap-4 mb-4">
+          {Object.entries(glossaryData.terms[currentIndex].translations).map(([lang, translation]) => (
+            <Link
+              key={lang}
+              href={`/${lang}/${translation.slug}`}
+              className="text-orange-500 hover:text-orange-400 transition-colors"
+            >
+              {lang === 'fr' ? 'Français' : lang.toUpperCase()}
+            </Link>
+          ))}
+        </div>
+
         <div className="flex items-center gap-4 mb-8">
           <Link
-            href="/"
+            href="/en"
             className="text-orange-500 hover:text-orange-400 transition-colors"
           >
             ← Back to Glossary
@@ -51,7 +63,7 @@ export default function GlossaryTermPage({ params }: { params: { id: string } })
               Visit {glossaryData.site.name}
             </a>
             <Link
-              href={`/glossary/${nextTerm.id}`}
+              href={`/en/${nextTerm.id}`}
               className="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors border border-gray-700"
             >
               Next: {nextTerm.term} →
