@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import glossaryData from '../../data/glossary.json';
+import { GITHUB_REPO_URL } from '../../lib/constants';
 
 const languageConfig: Record<string, { title: string; visitText: string; githubText: string }> = {
   fr: { title: 'Glossaire', visitText: 'Visiter', githubText: 'Voir GitHub' },
@@ -78,7 +79,7 @@ export default async function TranslatedHomePage({ params }: { params: Promise<{
               {langConfig.visitText} {glossaryData.site.name}
             </a>
             <a
-              href="https://github.com/SchemaRabbit/VisQuanta"
+              href={GITHUB_REPO_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors border border-gray-700"

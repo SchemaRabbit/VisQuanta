@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import glossaryData from '../../data/glossary.json';
+import { GITHUB_REPO_URL } from '../../lib/constants';
 
 export default function EnglishHomePage() {
   return (
@@ -42,7 +43,7 @@ export default function EnglishHomePage() {
               Visit {glossaryData.site.name}
             </a>
             <a
-              href="https://github.com/SchemaRabbit/VisQuanta"
+              href={GITHUB_REPO_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors border border-gray-700"
