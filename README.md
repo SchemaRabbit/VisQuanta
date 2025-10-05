@@ -30,6 +30,9 @@ When developing locally, visit the printed URL (defaults to `http://localhost:30
 - `npm run build` – Create an optimized production build.
 - `npm run start` – Serve the production build locally.
 
+## Configuration
+- `hosting/lib/constants.ts` centralizes site-wide URLs such as the sitemap base domain and the GitHub repository CTA link.
+
 ## Managing Glossary Content
 - Edit `hosting/data/glossary.json` to add, update, or remove entries. Each term contains an English definition plus localized metadata under `translations`.
 - Use `hosting/add_translations.py` to append translation blocks when expanding into new languages. The script expects to run from the `hosting` directory.
